@@ -1,0 +1,404 @@
+License Type	Issued	Effective	Expire	License Prefix	License no	Fee	Customer Name	Customer Address 1	Customer Address 2	Customer Address 3	Customer Phone	Dog Name	Color	Breed	Gender	Fixed											
+Dog License-Pierce County	12/06/2005	 1/01/2006	12/31/2006	2006-	       1	        5.00	Lisa Rydland	979 Falcon Dr	River Falls,  WI   5402254022			Abraham	Grey/White	Siber Husky	Male	Neutered											
+Dog License-Pierce County	12/13/2005	 1/01/2006	12/31/2006	2006-	       2	        5.00	Ron & Diane Bjork	305 Wesly Ct	River Falls,  WI   54022			Kiska	Grey/White	Siberian Husky	Female	Spayed											
+Dog License-Pierce County	12/13/2005	 1/01/2006	12/31/2006	2006-	       3	        5.00	Stacia Hetrick	540 E. Division	River Falls,  WI   54022			Duke	Liver/White	English Spring Spani	Male	Neutered											
+Dog License-Pierce County	12/13/2005	 1/01/2006	12/31/2006	2006-	       4	        5.00	Stacia Hetrick	540 E. Division	River Falls,  WI   54022			Harvey	Silver	Weimaraner	Male	Neutered											
+Dog License-Pierce County	12/15/2005	 1/01/2006	12/31/2006	2006-	       5	       10.00	Stasia Robbie	203 N 9th St.	River Falls,  WI   54022			Thunder	Black	Lab	Male	UnNeutered											
+Dog License-Pierce County	12/15/2005	 1/01/2006	12/31/2006	2006-	       6	        5.00	Lisa Thompson	239 Kusilek St.	River Falls,  WI   54022			Roux	Ginger/White	Beagle	Female	Spayed											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	       7	        5.00	Kathleen A. Baker	414 N. Second	River Falls,  WI   54022			Quincy	Black & White	Springer X Border	Male	Neutered											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	       8	        5.00	William Hischke	921 S. Main	River Falls,  WI   54022			Coffee	Black	Lab	Female	Spayed											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	       9	        5.00	Jim & Jeanne Albertson	1039 W. Maple St.	River Falls,  WI   54022			Ruby	Tri-Colored	Beagle	Female	Spayed											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	      10	        5.00	Jacqueline Davis	527 River Hills Dr.	River Falls,  WI   54022			Eadric	White	Bichon	Male	Neutered											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	      11	        5.00	Dianne & Herb Hubbell	520 W. Maple St.	River Falls,  WI   54022			Casey Jones	Buff	Cocker Spaniel	Male	Neutered											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	      12	        5.00	Dennis Blank	328 High Ridge Road	River Falls,  WI   54022			Jackie-Inactive	White/Brown/Black	Jack Russell Terrier	Female	Spayed											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	      13	        5.00	John Smith	302 Mariah Ct.	River Falls,  WI   54022			Tag	Orange/White	Brittany	Male	Neutered											
+Dog License-Pierce County	12/16/2005	 1/01/2006	12/31/2006	2006-	      15	        5.00	Jerry Lehnertz	821 Mary Lane	River Falls,  WI   54022			Kirby	Tri	Springer Spaniel	Male	Neutered											
+Dog License-Pierce County	12/19/2005	 1/01/2006	12/31/2006	2006-	      16	        5.00	Francis Ogden	710 Valley View Drive	River Falls,  WI   54022			Sally	Brown	Labrador Springer	Female	Spayed											
+Dog License-Pierce County	12/19/2005	 1/01/2006	12/31/2006	2006-	      17	        5.00	Timothy Stout	126 N. 4th St.	River Falls,  WI   54022			Guy	Black	Lab	Male	Neutered											
+Dog License-Pierce County	12/20/2005	 1/01/2006	12/31/2006	2006-	      18	        5.00	Gregg Hadley	635 Hazel Street	River Falls,  WI   54022			Beaufort	White	Am Eskimo	Male	Neutered											
+Dog License-Pierce County	12/20/2005	 1/01/2006	12/31/2006	2006-	      19	        5.00	John Hedrington	1841 Wisconsin St	River Falls,  WI   54022			Scruffy	Brindle	Cairn Terrier	Male	Neutered											
+Dog License-Pierce County	12/20/2005	 1/01/2006	12/31/2006	2006-	      20	        5.00	Kirsten Henderson	1352 Sycamore St.	River Falls,  WI   54022			Patches-Inactive	Tri Color	Beagle	Female	Spayed											
+Dog License-Pierce County	12/20/2005	 1/01/2006	12/31/2006	2006-	      21	       10.00	Jim & Marge Filkins	515 Crescent St.	River Falls,  WI   54022			Rocky	Liver/White	Germ. Shorthair	Male	UnNeutered											
+Dog License-Pierce County	12/20/2005	 1/01/2006	12/31/2006	2006-	      22	        5.00	Brian Gresback	1698 Sunwood Court	River Falls,  WI   54022			Rosey	Sable	Sheltie	Female	Spayed											
+Dog License-Pierce County	12/21/2005	 1/01/2006	12/31/2006	2006-	      23	        5.00	Luanne Pechacek	1159 Foster St.	River Falls,  WI   54022			Jackson	Brown/White	Shih Tzu	Male	Neutered											
+Dog License-Pierce County	12/21/2005	 1/01/2006	12/31/2006	2006-	      24	        5.00	Fred Riehle	303 N 3rd St	River Falls,  WI   54022			Betsy	Blk/Wht	Collie,Border Mix	Female	Spayed											
+Dog License-Pierce County	12/22/2005	 1/01/2006	12/31/2006	2006-	      25	        5.00	Allen & Dianne Barnes	434 River Hills Road	River Falls,  WI   54022			Sasha	White	Amer. Eskimo	Female	Spayed											
+Dog License-Pierce County	12/22/2005	 1/01/2006	12/31/2006	2006-	      26	        5.00	Jackie Zimmerman	2355 Golfview	River Falls,  WI   54022			Pepper	Grey	Cockapoo	Male	Neutered											
+Dog License-Pierce County	12/22/2005	 1/01/2006	12/31/2006	2006-	      27	        5.00	Donna Gresback	821 W. Maple	River Falls,  WI   54022			Sophie	Black/Tan	Border Collie	Female	Spayed											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      28	        5.00	Susan Caparelli	1450 River Ridge Rd	River Falls,  WI   54022			Bruno	Merle/White	Great Dane	Male	Neutered											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      29	        5.00	Andrea Stone	113 Hamilton Dr.	River Falls,  WI   54022			Hawk	Golden	Golden Retriever	Male	Neutered											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      30	        5.00	Beverly Forton	114 S. Winter St.	River Falls,  WI   54022			Lollipop	Buff	Canine	Female	Spayed											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      31	        5.00	Steven Moore	612 High Ridge Road	River Falls,  WI   54022			Yount-Inactive	Yellow	Lab	Male	Neutered											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      32	        5.00	Alan & Jean Stewart	217 E. Maple	River Falls,  WI   54022			Happy	Grizzle/White	Lhasa Apso	Female	Spayed											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      33	        5.00	Glen Lambert	508 E. Spring	River Falls,  WI   54022			Buddy	Black	Lab	Male	Neutered											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      34	        5.00	Glen Lambert	508 E. Spring	River Falls,  WI   54022			Sheba	Black	Lab X	Female	Spayed											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      35	        5.00	Lynn Schneider	425 East Pine	River Falls,  WI   54022			Ginger	Black/Tan	German Shepard	Female	Spayed											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      36	        5.00	Cathy Knox	803 State St.	River Falls,  WI   54022			Keeysha	Black & White	Malamute/Husky	Female	Spayed											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      37	        5.00	Cathy Knox	803 State St.	River Falls,  WI   54022			Simon	White & Brown	Husky	Male	Neutered											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      38	        5.00	Don Pingel	1707 Rodao Drive	River Falls,  WI   54022			April	Buff	CockerX	Female	Spayed											
+Dog License-Pierce County	12/27/2005	 1/01/2006	12/31/2006	2006-	      39	        5.00	Cindy Kohl	437 N. Eighth	River Falls,  WI   54022			Maggie	Gold	Golden Ret X	Female	Spayed											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      40	        5.00	Andrea Schramm	543 Hamilton Court	River Falls,  WI   54022			Buddy	Gold/White	Golden Retriever	Male	Neutered											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      41	        5.00	Kristi Teed	225 N 8th St	River Falls,  WI   54022			Rowdy	Black/White	Beagle/Spr	Male	Neutered											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      42	        5.00	Judy Loehle-Conger	1445 River Ridge Road	River Falls,  WI   54022			Zoe	Black & Tan	Border Terrier	Female	Spayed											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      43	        5.00	Judy Loehle-Conger	1445 River Ridge Road	River Falls,  WI   54022			Sandy	Blonde	Bouvier	Female	Spayed											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      44	        5.00	Michelle Zeman	441 River Hills Rd	River Falls,  WI   54022			Benji	White/Tan	Cocker Spaniel	Male	Neutered											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      45	        5.00	Judy Fuller	1392 Bartosh Lane	River Falls,  WI   54022			Cayenne	Liver/White	German Shorthai	Female	Spayed											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      46	        5.00	Jeff Carow	533 East Maple	River Falls,  WI   54022			Icey	Liver/White	Springer Spaniel	Male	Neutered											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      47	        5.00	Jeff Carow	533 East Maple	River Falls,  WI   54022			Rainy	Black/White	English Springer Sp.	Male	Neutered											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      48	        5.00	Diane Steinhoff	1510 Covey Dr.	River Falls,  WI   54022			Reebok	Brown	Beagle Mix	Female	Spayed											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      49	        5.00	Erica Amundson	1568 Foster Ct	River Falls,  WI   54022			Hunter	Brown	Vizsla	Male	Neutered											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      50	        5.00	Ron Ruhnke	108 N. Lewis	River Falls,  WI   54022			Beamer	Black/Brown/White	Basset Beagle Cross	Male	Neutered											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      51	        5.00	Ron Ruhnke	108 N. Lewis	River Falls,  WI   54022			Cleo	Tri	Hound, Basset	Female	Spayed											
+Dog License-Pierce County	12/28/2005	 1/01/2006	12/31/2006	2006-	      52	        5.00	Bob & Mary Johnson	558 River Hills Dr.	River Falls,  WI   54022			Rosey	Golden	Golden Retr	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      53	        5.00	Roman Falteisek	321 North Fremont	River Falls,  WI   54022			Squeak	Black/White	Mixed	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      54	        5.00	Ann & Roger Buchholz	546 River Hills Dr	River Falls,  WI   54022			Mia	Liver/White	Pointer	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      55	        5.00	Jeanne Kinney	109 N 3rd St	River Falls,  WI   54022			KADIE	CHOC	LAB	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      56	        5.00	Kevin Johnson	315 N Pearl St	River Falls,  WI   54022			Nikita	Blk/Tan	Rottweiler Mix	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      57	        5.00	Kevin Johnson	315 N Pearl St	River Falls,  WI   54022			Theodore	Brown	Aust Cattle	Male	Neutered											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      58	       10.00	Matthew B. Dusek	1856 Rodao Dr	River Falls,  WI   54022		715-426-6233	Charlie	White/Chestnut	English Setter	Male	UnNeutered											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      59	        5.00	Andrew Dyer	538 Birch Crest	River Falls,  WI   54022			Harryette	Black/Tan	Shepard	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      60	        5.00	Chris & Kim Carley	939 Falcon Drive	River Falls,  WI   54022			Maddie	Gold	Golden Retriever	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      61	        5.00	Chris & Kim Carley	939 Falcon Drive	River Falls,  WI   54022			Allie	Golden	Golden Retriver	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      62	        5.00	Cindy Kleven	668 Meadowbrook Lane	River Falls,  WI   54022			Daisy	Black/White	Boston Terrier	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      63	       10.00	Theresa Cahalan	539 Birch St.	River Falls,  WI   54022			Nina	Gray	Husky	Female	UnSpayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      64	        5.00	Theresa Cahalan	539 Birch St.	River Falls,  WI   54022			Nook	White	Canine	Male	Neutered											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      65	        5.00	Theresa Cahalan	539 Birch St.	River Falls,  WI   54022			Puma	Blk/Wht	Husky	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      66	        5.00	Robert Krey	724 River Ridge Ct.	River Falls,  WI   54022			Bucky	Black/White	Boston Terrier	Male	Neutered											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      67	        5.00	Neal Borchardt	240 W. Cascade Ave	River Falls,  WI   54022			Jazz	Black/White	Labrador Mix	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      68	        5.00	Neal Borchardt	240 W. Cascade Ave	River Falls,  WI   54022			Copper	Chocolate	Lab	Female	Spayed											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      69	        5.00	Jim Pratt	519 E Walnut	River Falls,  WI   54022			Fang	Wht/Brindle	Boston Terrier	Male	Neutered											
+Dog License-Pierce County	12/29/2005	 1/01/2006	12/31/2006	2006-	      70	        5.00	Dennis Anderson	620 W. Elm St	River Falls,  WI   54022			Storm	Yellow	Canine	Female	Spayed											
+Dog License-Pierce County	12/30/2005	 1/01/2006	12/31/2006	2006-	      71	        5.00	Sue Popelka-Inactive	730 River Ridge Ct	River Falls,  WI   54022			Sally-Inactive	White/Chestnut	Bichon Frise	Female	Spayed											
+Dog License-Pierce County	12/30/2005	 1/01/2006	12/31/2006	2006-	      73	        5.00	Dennis & Carolyn Johnson	555 Birch Crest	River Falls,  WI   54022			Q Ling	Biscuit	Pekinese	Female	Spayed											
+Dog License-Pierce County	12/30/2005	 1/01/2006	12/31/2006	2006-	      74	        5.00	Lori Marita	1723 South Ridge Road	River Falls,  WI   54022			Rosie	Brown/White	Beagle	Female	Spayed											
+Dog License-Pierce County	12/30/2005	 1/01/2006	12/31/2006	2006-	      75	        5.00	Michelle Moore	103 S Grove St	River Falls,  WI   54022			Simba	Golden	Golden Retriever	Male	Neutered											
+Dog License-Pierce County	12/30/2005	 1/01/2006	12/31/2006	2006-	      76	        5.00	Michelle Moore	103 S Grove St	River Falls,  WI   54022			Trey	Black	Lab/Husky	Female	Spayed											
+Dog License-Pierce County	12/30/2005	 1/01/2006	12/31/2006	2006-	      77	        5.00	Chris Oseland	1116 W. Maple St.	River Falls,  WI   54022			Teal	Dead Grass	Chesapeake Bay	Female	Spayed											
+Dog License-Pierce County	12/30/2005	 1/01/2006	12/31/2006	2006-	      78	       10.00	Chris Oseland	1116 W. Maple St.	River Falls,  WI   54022			Lute	Black	Retriever	Male	UnNeutered											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      79	        5.00	Julia Stoffa	1609 Valley Quail Dr	River Falls,  WI   54022			Cotton	Gold	Mixed Terrier	Female	Spayed											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      80	        5.00	Amy Tryba	1820 Rodao Dr	River Falls,  WI   54022			Yoda	Blk/White	Boston Terr	Male	Neutered											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      81	        5.00	Jessica LeCapitaine	731 Lumphrey Ct.	River Falls,  WI   54022			Mya	Blk/White	Bichon/Yorkie	Female	Spayed											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      82	        5.00	Beth Cronk	400 N Dallas St.	River Falls,  WI   54022			Bumby	Brown	German Wirehair Poin	Female	Spayed											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      83	        5.00	Tim Wood	315 W Maple	River Falls,  WI   54022			Sonnie	Yellow	Lab	Female	Spayed											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      84	       10.00	Andrea Back	103 N Pearl	River Falls,  WI   54022			Samo	Tricolor	Coon/Foxhound	Male	UnNeutered											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      86	        5.00	Esther Norderhaug	548 S Wasson	River Falls,  WI   54022			Sparkal	Brown/Black	Yorkshire Terrier	Female	Spayed											
+Dog License-Pierce County	 1/03/2006	 1/01/2006	12/31/2006	2006-	      87	        5.00	Tom Ewens	1251 Meadowbrook Ln	River Falls,  WI   54022			Ruby	Sable	Collie	Female	Spayed											
+Dog License-Pierce County	 1/04/2006	 1/01/2006	12/31/2006	2006-	      90	        5.00	Charles Rader	402 S. 6th St.	River Falls,  WI   54022			Velcro	Gray	Schnauzer	Male	Neutered											
+Dog License-Pierce County	 1/04/2006	 1/01/2006	12/31/2006	2006-	      91	        5.00	Tammy Stifter	930 Falcon Drive	River Falls,  WI   54022			Tess	Black/Brown	Mix	Female	Spayed											
+Dog License-Pierce County	 1/04/2006	 1/01/2006	12/31/2006	2006-	      92	        5.00	Karen DeVoe	627 Spring St	River Falls,  WI   54022			Tucker	Brown	Lhasa Apso	Male	Neutered											
+Dog License-Pierce County	 1/04/2006	 1/01/2006	12/31/2006	2006-	      93	        5.00	Joyce A. Ducklow	1501 Covey Dr.	River Falls,  WI   54022		715-688-2526	Sadie	Chocolate	Lab Ret	Female	Spayed											
+Dog License-Pierce County	 1/04/2006	 1/01/2006	12/31/2006	2006-	      94	        5.00	Dena Mleziva	723 W Elm St	River Falls,  WI   54022			Bridget	Gold/Black	Mix	Female	Spayed											
+Dog License-Pierce County	 1/04/2006	 1/01/2006	12/31/2006	2006-	      95	        5.00	Howard M. Squires	108 South Bend	River Falls,  WI   54022		715-425-9064 Bo's 'N Mine	Barney	Golden	Golden Retreiver	Male	Neutered											
+Dog License-Pierce County	 1/04/2006	 1/01/2006	12/31/2006	2006-	      96	        5.00	Howard M. Squires	108 South Bend	River Falls,  WI   54022		715-425-9064 Bo's 'N Mine	KC	Golden	Golden Retriever	Female	Spayed											
+Dog License-Pierce County	 1/05/2006	 1/01/2006	12/31/2006	2006-	      97	        5.00	Dick Peitso	1336 W Division St	River Falls,  WI   54022			Bean	Tan	HuskyX	Female	Spayed											
+Dog License-Pierce County	 1/05/2006	 1/01/2006	12/31/2006	2006-	      98	        5.00	Darla Gunderson-Inactive	1684 Rodao Dr	River Falls,  WI   54022			Dax-Inactive	Golden	Spaniel Mix	Female	Spayed											
+Dog License-Pierce County	 1/05/2006	 1/01/2006	12/31/2006	2006-	      99	        5.00	Darla Gunderson-Inactive	1684 Rodao Dr	River Falls,  WI   54022			Leia-Inactive	Buff	Other	Female	Spayed											
+Dog License-Pierce County	 1/05/2006	 1/01/2006	12/31/2006	2006-	     100	        5.00	William & Sheri Fowler	1223 Foster St.	River Falls,  WI   54022			Jordan	Tri Color	Canine	Male	Neutered											
+Dog License-Pierce County	 1/05/2006	 1/01/2006	12/31/2006	2006-	     101	        5.00	Kim Swinburne	103 N Lewis	River Falls,  WI   54022			Oreo	Black & White	Sheltie X	Male	Neutered											
+Dog License-Pierce County	 1/05/2006	 1/01/2006	12/31/2006	2006-	     103	        5.00	Betty Rustad	102 S. Pearl	River Falls,  WI   54022			Pepe	Black/Gray	Lhase Apso	Male	Neutered											
+Dog License-Pierce County	 1/06/2006	 1/01/2006	12/31/2006	2006-	     104	        5.00	Jon Killian	221 N. Seventh	River Falls,  WI   54022			Scrapper	Black/Tan/White	Jack Russell	Male	Neutered											
+Dog License-Pierce County	 1/06/2006	 1/01/2006	12/31/2006	2006-	     105	        5.00	Cheryl & Karen Grubb	1439 Washington	River Falls,  WI   54022			Copper	Tri Color	Beagle X	Male	Neutered											
+Dog License-Pierce County	 1/06/2006	 1/01/2006	12/31/2006	2006-	     106	        5.00	Lisa Plackner	1288 Foster St.	River Falls,  WI   54022			Jake	Choc/White	German Shorthair	Male	Neutered											
+Dog License-Pierce County	 1/06/2006	 1/01/2006	12/31/2006	2006-	     108	        5.00	Lisa Plackner	1288 Foster St.	River Falls,  WI   54022			Charlie	Buff/White	Cocker Spaniel	Male	Neutered											
+Dog License-Pierce County	 1/06/2006	 1/01/2006	12/31/2006	2006-	     109	        5.00	Mark Otterness	645 River Ridge Rd	River Falls,  WI   54022			Gilligan	Tri	Sheltie	Male	Neutered											
+Dog License-Pierce County	 1/06/2006	 1/01/2006	12/31/2006	2006-	     110	        5.00	Cathy Zillmann	2771 Hilltop Ct	River Falls,  WI   54022			Sam	White	Bichon Frise	Male	Neutered											
+Dog License-Pierce County	 1/06/2006	 1/01/2006	12/31/2006	2006-	     111	        5.00	Gary Somerville	180 Sunwood Valley Ln	River Falls,  WI   54022			Code	Liver	Lab	Male	Neutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     112	        5.00	Marcella Field	1046 Southfork Drive	River Falls,  WI   54022			Birki	Gold	Golden Retreiver	Female	Spayed											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     113	        5.00	LaVerne Zastrow	622 W. Elm St.	River Falls,  WI   54022			Max	Black	Schiperka	Male	Neutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     114	        5.00	LaVerne Zastrow	622 W. Elm St.	River Falls,  WI   54022			Velvet II	Black	Schiperke	Female	Spayed											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     115	        5.00	Katie Ista	1496 Bartosh Ln	River Falls,  WI   54022			Chip	Tan/Wht	Cockapoo	Male	Neutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     116	        5.00	Lee Owen	391 W. Church	River Falls,  WI   54022			Kasey	Black/Silver	Keeshond	Male	Neutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     117	       10.00	Lee Owen	391 W. Church	River Falls,  WI   54022			Pooka	White	Samoyed	Male	UnNeutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     118	        5.00	Adam Ripley	520 Crescent St	River Falls,  WI   54022			Buddy	Tri-Color	Bassett Hound	Male	Neutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     119	       10.00	Elizabeth Chase	622 River Ridge Dr	River Falls,  WI   54022			Buddy	Red	Golden Ret	Male	UnNeutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     120	        5.00	Elizabeth Chase	622 River Ridge Dr	River Falls,  WI   54022			Brody	Golden	Golden Retriever	Male	Neutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     121	       10.00	Raine Anderson	582 Cemetery Road	River Falls,  WI   54022			Cash	Yellow	Yellow Lab	Male	UnNeutered											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     122	       10.00	Steve Kittilson	1023 Morgan Road	River Falls,  WI   54022			Kiska	Red/White	Husky	Female	UnSpayed											
+Dog License-Pierce County	 1/09/2006	 1/01/2006	12/31/2006	2006-	     123	        5.00	Steve Kittilson	1023 Morgan Road	River Falls,  WI   54022			Ti-Lo	Black/White	Husky	Female	Spayed											
+Dog License-Pierce County	 1/10/2006	 1/01/2006	12/31/2006	2006-	     124	        5.00	Teresa Rickord	1543 Bartosh Lane	River Falls,  WI   54022			Taz	Black	Labrador	Male	Neutered											
+Dog License-Pierce County	 1/10/2006	 1/01/2006	12/31/2006	2006-	     125	        5.00	George Ayres	1583 Covey Dr	River Falls,  WI   54022			Nicholas	Black	Labx	Male	Neutered											
+Dog License-Pierce County	 1/11/2006	 1/01/2006	12/31/2006	2006-	     126	        5.00	James Derks	1106 W. Division St	River Falls,  WI   5402254022			Stitch	Black/White	Beagle	Male	Neutered											
+Dog License-Pierce County	 1/12/2006	 1/01/2006	12/31/2006	2006-	     127	        5.00	Brian Sharon	508 East Johnson	River Falls,  WI   54022			Reggie	Black	Toy Poodle	Male	Neutered											
+Dog License-Pierce County	 1/13/2006	 1/01/2006	12/31/2006	2006-	     130	        5.00	Mike & Margaret Doyle	431 7th Street	River Falls,  WI   54022			Zeke	Black & Tan	Doberman X	Male	Neutered											
+Dog License-Pierce County	 1/13/2006	 1/01/2006	12/31/2006	2006-	     131	        5.00	Jim Madsen	126 N. Third	River Falls,  WI   54022			Chelsey	Tri	Beagle	Female	Spayed											
+Dog License-Pierce County	 1/17/2006	 1/01/2006	12/31/2006	2006-	     132	       10.00	Matt Peterson	303 N Winter St	River Falls,  WI   54022			Powder	Black	Lab	Female	UnSpayed											
+Dog License-Pierce County	 1/17/2006	 1/01/2006	12/31/2006	2006-	     133	       10.00	Matt Peterson	303 N Winter St	River Falls,  WI   54022			Shadow	Black	Black Lab	Male	UnNeutered											
+Dog License-Pierce County	 1/17/2006	 1/01/2006	12/31/2006	2006-	     134	        5.00	Anne Miller	1457 Wildcat Ct	#104	River Falls,  WI   54022		Lastat	Brown/Black	Basset/Lab	Male	Neutered											
+Dog License-Pierce County	 1/17/2006	 1/01/2006	12/31/2006	2006-	     135	        5.00	Ann Dravis	125 Cascade Ct	River Falls,  WI   54022			Jack	Black/White	Shih-Tzu	Male	Neutered											
+Dog License-Pierce County	 1/17/2006	 1/01/2006	12/31/2006	2006-	     137	        5.00	Larry Ribel	402 7th St.	River Falls,  WI   54022			Sophie	Black	Lab/Doberman	Female	Spayed											
+Dog License-Pierce County	 1/17/2006	 1/01/2006	12/31/2006	2006-	     138	        5.00	Larry Ribel	402 7th St.	River Falls,  WI   54022			Vinny	Black/White	Shepard/Collie	Male	Neutered											
+Dog License-Pierce County	 1/17/2006	 1/01/2006	12/31/2006	2006-	     139	        5.00	Jack Cudd	673 River Ridge Rd	River Falls,  WI   54022			Ziggy	Brown/White	Papillon	Male	Neutered											
+Dog License-Pierce County	 1/18/2006	 1/01/2006	12/31/2006	2006-	     140	        5.00	Delores McGillis	1222 W. Division	River Falls,  WI   54022			Brandy	Black/White	Shihtzu	Female	Spayed											
+Dog License-Pierce County	 1/19/2006	 1/01/2006	12/31/2006	2006-	     141	        5.00	Jim Jablonski	379 W. Charlotte	River Falls,  WI   54022			Max	Buff	Cocker	Male	Neutered											
+Dog License-Pierce County	 1/19/2006	 1/01/2006	12/31/2006	2006-	     142	        7.50	Kristi Brunetto	W9090 HWY 29	River Falls,  WI   54022			Dudley-Inactive	BLACK/TAN	PINSCHER	Male	Neutered											
+Dog License-Pierce County	 1/19/2006	 1/01/2006	12/31/2006	2006-	     143	        5.00	Kristi Brunetto	W9090 HWY 29	River Falls,  WI   54022			Gunner	BLACK/TAN	DOBERMAN	Male	Neutered											
+Dog License-Pierce County	 1/20/2006	 1/01/2006	12/31/2006	2006-	     144	        5.00	Stephanie Wallace	207 S. 5th St.	River Falls,  WI   54022			Fritz	Black	Ger Wired Hair Pter	Male	Neutered											
+Dog License-Pierce County	 1/20/2006	 1/01/2006	12/31/2006	2006-	     145	        5.00	Stephanie Wallace	207 S. 5th St.	River Falls,  WI   54022			Monroe	Black	Lab	Male	Neutered											
+Dog License-Pierce County	 1/20/2006	 1/01/2006	12/31/2006	2006-	     146	        5.00	Jim Soderbeck	314 Walnut St. E	River Falls,  WI   54022			Hank	Black	Labrador	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     147	        5.00	Shelley Rusch	214 N Fremont	River Falls,  WI   54022			Misja	White	Min Am Eskimo	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     148	        5.00	Pamela Yeager	111 N 4th St	River Falls,  WI   54022			Molly	Gold	Germ/Husky	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     149	        5.00	Bev Eloranta	532 Linden	River Falls,  WI   54022			Skylar	Black	Lab/Hound	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     150	        5.00	Kim Quayle	1545 River Ridge Rd	River Falls,  WI   54022			Nipper	Red	Retriever	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     151	        5.00	Kim Quayle	1545 River Ridge Rd	River Falls,  WI   54022			Rusty	Red	Retriever	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     152	        5.00	Bill & Shelly Loomis	1830 Golf View Dr.	River Falls,  WI   54022			Buckshot	Chocolate	Am Water Span.	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     153	        5.00	Frank & Gerry Stauber	231 N 9th St	River Falls,  WI   54022			Ben	Black	Lab Ret	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     154	        5.00	Lori Reichert-Inactive	418 Griffey	River Falls,  WI   54022			Smokey-Inactive	Black	MiniSchnauser	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     155	        5.00	Diane Szatkowski	108 Jefferson	River Falls,  WI   54022			Mercedes	Black/White	Terrier/Lab	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     156	        5.00	Jacque Wallin	1330 Sycamore St	River Falls,  WI   54022			Tucker	Black	Lab Retr.	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     157	        5.00	Erin Mahnke	417 E Maple	River Falls,  WI   54022			Kiwi	Mixed	Mixed	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     158	        5.00	Nicole Daher	1430 Cemetery Rd, Apt 201	River Falls,  WI   54022			Abigail	Blk/Tan	German Shep	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     159	        5.00	Len Wiskerchen	746 Valley View Dr.	River Falls,  WI   54022			Gretchen	Red	Golden Retriever	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     160	        5.00	Gaylene Schwalen	425 N. Third	River Falls,  WI   54022			Kelsey	Tri	Beagle X	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     161	        5.00	M. Hannah Young-Inactive	1609 W MAPLE ST	River Falls,  WI   5402254022			Smokey-Inactive	Black/White	Boarder Collie	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     162	        5.00	LuAnn Foster	203 S Dallas	River Falls,  WI   54022			Tipper	Black/Grey	Mixed	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     163	        5.00	Doug Rudesill	1151 Meadowbrook	River Falls,  WI   54022			Sami	Black	Cocker Spaniel	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     164	        5.00	Christine Wing	600 River Ridge Rd	River Falls,  WI   54022			Fozzie	Brown/Black	Lab/Chow X	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     165	        5.00	Christine Wing	600 River Ridge Rd	River Falls,  WI   54022			Maga	Red	Keeshond	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     166	        5.00	Joe Young	323 W Cedar	River Falls,  WI   54022			Razzy	Wht/Blk	Eng Setter	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     167	        5.00	Del Anderson	234 Church St.	River Falls,  WI   54022			Jackie	White/Black	JackRussell	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     168	        5.00	John Dretsch	1339 South Orange	River Falls,  WI   54022			Butch	Brown/Black/White	Sheltie	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     169	       10.00	John Dretsch	1339 South Orange	River Falls,  WI   54022			Tucker	White	Pomeranian	Male	UnNeutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     170	        5.00	Don Vezina	1350 South Wasson Lane	River Falls,  WI   54022			Gabrielle	Merle Red	Aus Shepard	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     171	        5.00	Don Vezina	1350 South Wasson Lane	River Falls,  WI   54022			Rein	White	Border Collie	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     172	       10.00	Phil Kuss	115 North Winter Street	River Falls,  WI   54022			Rascal	Tri-Color	Beagle	Male	UnNeutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     173	        5.00	Gwen Kusilek	420 N. Fremont St.	River Falls,  WI   54022			Sophie	Tri Color	Beagle	Female	Spayed											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     174	        5.00	Sue Dzubay	424 Birch St.	River Falls,  WI   54022			Bucky	Black	Lab X	Male	Neutered											
+Dog License-Pierce County	 1/21/2006	 1/01/2006	12/31/2006	2006-	     175	        5.00	Tim DeLong	215 N. Falls	River Falls,  WI   54022			Lucy	Gold	Gold Ret	Female	Spayed											
+Dog License-Pierce County	 1/23/2006	 1/01/2006	12/31/2006	2006-	     176	        5.00	Neal Borchardt	240 W. Cascade Ave	River Falls,  WI   54022			Honey	Tri Color	Beagle	Female	Spayed											
+Dog License-Pierce County	 1/23/2006	 1/01/2006	12/31/2006	2006-	     177	        5.00	Carolyn Bruhjell	703 Bartosh Lane	River Falls,  WI   54022			Shelby	Black/White	Border Collie X	Female	Spayed											
+Dog License-Pierce County	 1/23/2006	 1/01/2006	12/31/2006	2006-	     178	        5.00	Ruth Reilly	127 S. 4th St.	River Falls,  WI   54022			Cricket	Blk/Brown	Mini Doch.	Female	Spayed											
+Dog License-Pierce County	 1/23/2006	 1/01/2006	12/31/2006	2006-	     179	        5.00	Stan Meyer	303 N. Lewis	River Falls,  WI   54022			Buckwheat	Yellow	Lab	Female	Spayed											
+Dog License-Pierce County	 1/23/2006	 1/01/2006	12/31/2006	2006-	     180	        5.00	Marilyn Bostrack	384 W Park St	River Falls,  WI   54022			Shaka	Brown	Vizsla	Male	Neutered											
+Dog License-Pierce County	 1/24/2006	 1/01/2006	12/31/2006	2006-	     181	        5.00	Kelly Gandrud	1564 River Ridge Road	River Falls,  WI   54022		715-426-6567	Freska	Blue Merle	Aust.Shepherd	Female	Spayed											
+Dog License-Pierce County	 1/24/2006	 1/01/2006	12/31/2006	2006-	     182	        5.00	Jody Close	317 N. Wasson	River Falls,  WI   54022			Dawson	Chocolate	Lab Ret	Female	Spayed											
+Dog License-Pierce County	 1/24/2006	 1/01/2006	12/31/2006	2006-	     184	        5.00	Randy Koller	549 S. Wasson Lane	River Falls,  WI   54022		425-1409	Whitney	Buff	Pommeranian	Female	Spayed											
+Dog License-Pierce County	 1/24/2006	 1/01/2006	12/31/2006	2006-	     185	        5.00	Randy Koller	549 S. Wasson Lane	River Falls,  WI   54022		425-1409	Lewis	Black/Tan/White	Basset Hound	Male	Neutered											
+Dog License-Pierce County	 1/24/2006	 1/01/2006	12/31/2006	2006-	     186	        5.00	Kathi Nelson	127 N 4th St.	River Falls,  WI   54022			Lucy	Golden	Lab X	Female	Spayed											
+Dog License-Pierce County	 1/24/2006	 1/01/2006	12/31/2006	2006-	     187	       10.00	Ashley Huppert	1119 South Fork Dr	River Falls,  WI   54022			Jack	Black/Gray	Am Eskimo/Keeshand	Male	UnNeutered											
+Dog License-Pierce County	 1/24/2006	 1/01/2006	12/31/2006	2006-	     188	        5.00	Thomas Parent	522 E Maple Street	River Falls,  WI   54022			Zidion	Black	Black Lab	Male	Neutered											
+Dog License-Pierce County	 1/25/2006	 1/01/2006	12/31/2006	2006-	     189	        5.00	Sarah Burke	1608 Valley Quail Dr	River Falls,  WI   54022			Kya	Blk/White	Aus Shepard Mix	Female	Spayed											
+Dog License-Pierce County	 1/25/2006	 1/01/2006	12/31/2006	2006-	     190	        5.00	Diane Clay	326 N. 3rd St.	River Falls,  WI   54022			Misha	Black	Dachshund	Male	Neutered											
+Dog License-Pierce County	 1/25/2006	 1/01/2006	12/31/2006	2006-	     191	        5.00	Diane Clay	326 N. 3rd St.	River Falls,  WI   54022			Squeak	Blk/Tan	Dachshund	Male	Neutered											
+Dog License-Pierce County	 1/25/2006	 1/01/2006	12/31/2006	2006-	     192	        5.00	Jay Hawkinson	309 N Pearl	River Falls,  WI   54022			Max	Black/Tan	German Shep Mix	Female	Spayed											
+Dog License-Pierce County	 1/25/2006	 1/01/2006	12/31/2006	2006-	     193	        5.00	Mark Smith	1602 Valley Quail Drive	River Falls,  WI   54022			Daisy	Red	Cocker Spaniel	Female	Spayed											
+Dog License-Pierce County	 1/25/2006	 1/01/2006	12/31/2006	2006-	     194	        5.00	Mark Smith	1602 Valley Quail Drive	River Falls,  WI   54022			Payton	Buff	Cocker Spaniel	Male	Neutered											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     195	        5.00	Mary Webster	820 W Maple	River Falls,  WI   54022			Lady	Blk	Pointer	Female	Spayed											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     196	        5.00	Mary Webster	820 W Maple	River Falls,  WI   54022			Squirt	Blonde	Terrier	Male	Neutered											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     197	        5.00	Patricia Slaby	904 W Cedar	River Falls,  WI   54022			Molly	Tri-Color	Pembroke Welsh	Female	Spayed											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     198	       10.00	Brian Thompson	1351 Orange Street	River Falls,  WI   54022			Blaze	Black	Labrador	Female	UnSpayed											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     199	        5.00	Lisa Wilhelm	2383 Golfview Dr	River Falls,  WI   54022			Henry	Gold	Golden Retriever	Male	Neutered											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     200	        5.00	Lisa Wilhelm	2383 Golfview Dr	River Falls,  WI   54022			Isabel	Gold	Golden Retreiver	Female	Spayed											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     201	        5.00	Debbie Forney	455 N 4th St	River Falls,  WI   54022			Boo	Brown/Black	Shepherd	Female	Spayed											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     202	       10.00	Debbie Forney	455 N 4th St	River Falls,  WI   54022			Angel	Tri Color	Jack Russel	Female	UnSpayed											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     203	        5.00	Debbie Forney	455 N 4th St	River Falls,  WI   54022			Weto	White W/Black	Rat Terrier	Male	Neutered											
+Dog License-Pierce County	 1/26/2006	 1/01/2006	12/31/2006	2006-	     204	        5.00	Mary Babler	1346 S Spruce St	River Falls,  WI   54022			Eliot	Black	Newfoundland/Gol Ret	Male	Neutered											
+Dog License-Pierce County	 1/27/2006	 1/01/2006	12/31/2006	2006-	     205	        5.00	Robert Thrush	329 W. Charlotte	River Falls,  WI   54022			Cooper	Liver & White	Eng Springer	Male	Neutered											
+Dog License-Pierce County	 1/27/2006	 1/01/2006	12/31/2006	2006-	     206	        5.00	Robert Thrush	329 W. Charlotte	River Falls,  WI   54022			Lucy	Black/Tan	Shep/Lab	Female	Spayed											
+Dog License-Pierce County	 1/27/2006	 1/01/2006	12/31/2006	2006-	     207	        5.00	Dean Grisar	1134 E. Division St.	River Falls,  WI   54022			Levi	Gold	Golden Ret.	Male	Neutered											
+Dog License-Pierce County	 1/27/2006	 1/01/2006	12/31/2006	2006-	     208	        5.00	Pam Girtz	638 Glen Park Road	River Falls,  WI   54022			Katy	Brindle	Mixed	Female	Spayed											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     209	        5.00	Barbara Scott	521 E. Maple	River Falls,  WI   54022			Mittens	Black & White	Border Collie Mix	Female	Spayed											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     210	        5.00	Barbara Scott	521 E. Maple	River Falls,  WI   54022			Stormy	Black/White	Labrador X	Male	Neutered											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     211	       10.00	Jules Jensen	501 Birch St.	River Falls,  WI   54022			Otis	Liver/White	German Pointer	Male	UnNeutered											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     212	       10.00	Hubert & Gloria Ross	1641 Centennial Drive	River Falls,  WI   54022			Barney	Black & White	Boston Terrier	Male	UnNeutered											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     213	        5.00	Mike Meacham	503 E Johnson	River Falls,  WI   54022			Pepper	Blk/White	Dalmation	Male	Neutered											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     214	        5.00	Sandy Herum	806 Oak Knoll	River Falls,  WI   54022			Kahlua	Blk/Tan	Rott/Lab Mix	Female	Spayed											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     215	        5.00	Sandy Herum	806 Oak Knoll	River Falls,  WI   54022			Tucker	Liver/Wht	Spaniel/Eng Spr	Male	Neutered											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     216	        5.00	Peggy Hanson	1339 South Spruce	River Falls,  WI   54022			Thor	Rust/White	Spaniel-X	Male	Neutered											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     217	        5.00	Angie Purfeerst	311 N 2nd St	River Falls,  WI   54022			Bella	Red	Cairn Terrier	Female	Spayed											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     218	       10.00	Tom Gunderson	312 Kari Lane	River Falls,  WI   54022			Axel	Black/Tan	German Shep	Male	UnNeutered											
+Dog License-Pierce County	 1/30/2006	 1/01/2006	12/31/2006	2006-	     219	        5.00	Tom Gunderson	312 Kari Lane	River Falls,  WI   54022			Ole	White/Brown	Jack Russell	Male	Neutered											
+Dog License-Pierce County	 1/31/2006	 1/01/2006	12/31/2006	2006-	     220	        5.00	Joyce & Dave Connolly	1434 S. Main St.		River Falls,  WI   54022		Jake	Blk/White	Lab Cross	Male	Neutered											
+Dog License-Pierce County	 1/31/2006	 1/01/2006	12/31/2006	2006-	     221	        5.00	Betty Croes	534 Patrick Ct	River Falls,  WI   54022			Perdy	White	Whippet	Female	Spayed											
+Dog License-Pierce County	 1/31/2006	 1/01/2006	12/31/2006	2006-	     222	       10.00	Maggie Watson	215 N. 7TH ST	River Falls,  WI   54022			Stella	Black/Gray	Poodle	Female	UnSpayed											
+Dog License-Pierce County	 1/31/2006	 1/01/2006	12/31/2006	2006-	     223	        5.00	Beth Ross	522 W Cedar	River Falls,  WI   54022			Maggie	Black/Tan	Australian Shep Houn	Female	Spayed											
+Dog License-Pierce County	 1/31/2006	 1/01/2006	12/31/2006	2006-	     224	        5.00	Beth Ross	522 W Cedar	River Falls,  WI   54022			Sandy	Tan/Black	Hunt Bounder	Female	Spayed											
+Dog License-Pierce County	 1/31/2006	 1/01/2006	12/31/2006	2006-	     226	        5.00	Brian Swenson	725 Lumphrey Ct.	River Falls,  WI   54022			Murray	Tan/White	Shitzu	Male	Neutered											
+Dog License-Pierce County	 1/31/2006	 1/01/2006	12/31/2006	2006-	     227	        5.00	Becky Ruka	1803 Wisconsin St	River Falls,  WI   54022			Amos	Black	Schnauzer	Male	Neutered											
+Dog License-Pierce County	 2/01/2006	 1/01/2006	12/31/2006	2006-	     228	        5.00	Liz Siroin	556 Birch Crest Dr.	River Falls,  WI   54022			DJ	Blk/Tan	Shepherd Mix	Female	Spayed											
+Dog License-Pierce County	 2/01/2006	 1/01/2006	12/31/2006	2006-	     229	        5.00	Jaci Hauth	303 N. 8th St.	River Falls,  WI   54022			Oscar	Black	Retriever/Lab	Male	Neutered											
+Dog License-Pierce County	 2/01/2006	 1/01/2006	12/31/2006	2006-	     230	        5.00	Jaci Hauth	303 N. 8th St.	River Falls,  WI   54022			Packer	Brn/Blk	Shar Pei	Male	Neutered											
+Dog License-Pierce County	 2/01/2006	 1/01/2006	12/31/2006	2006-	     231	        5.00	Scott Bjork	188 Kinni Ct	River Falls,  WI   54022			Wiley	Black/White	Sib Huskey	Male	Neutered											
+Dog License-Pierce County	 2/02/2006	 1/01/2006	12/31/2006	2006-	     233	        5.00	Brenda Keller	120 Sylla St	River Falls,  WI   54022			Bart	TriColored	Beagle	Male	Neutered											
+Dog License-Pierce County	 2/02/2006	 1/01/2006	12/31/2006	2006-	     234	        5.00	Brenda Keller	120 Sylla St	River Falls,  WI   54022			Elvis	Brown	LabX	Male	Neutered											
+Dog License-Pierce County	 2/03/2006	 1/01/2006	12/31/2006	2006-	     237	        5.00	Mary Mack	1732 Bennett St.	River Falls,  WI   54022			Benji	Black/Tan	Dachshund	Male	Neutered											
+Dog License-Pierce County	 2/06/2006	 1/01/2006	12/31/2006	2006-	     238	        5.00	Peggy Chukel	1335 Washington	River Falls,  WI   54022			Davey	Smokey	Min Pin/Poodle	Male	Neutered											
+Dog License-Pierce County	 2/06/2006	 1/01/2006	12/31/2006	2006-	     239	       10.00	Peggy Chukel	1335 Washington	River Falls,  WI   54022			Lucy	Tan & Wht	Boxer	Female	UnSpayed											
+Dog License-Pierce County	 2/08/2006	 1/01/2006	12/31/2006	2006-	     240	       10.00	Christopher Stolp	1534 Golfview Drive	River Falls,  WI   5402254022			Tucker	Yellow	Yellow Lab	Male	UnNeutered											
+Dog License-Pierce County	 2/08/2006	 1/01/2006	12/31/2006	2006-	     242	        5.00	April Alton	107 Washington St	River Falls,  WI   54022			Isabelle	Tri Color	Beagle	Female	Spayed											
+Dog License-Pierce County	 2/08/2006	 1/01/2006	12/31/2006	2006-	     243	        5.00	Pat Stewart	95 E. Johnson St.	River Falls,  WI   54022			Tieco	Tri Color	Shis Tzu	Male	Neutered											
+Dog License-Pierce County	 2/09/2006	 1/01/2006	12/31/2006	2006-	     244	        5.00	Angela Carlson	910 Hazel St.	River Falls,  WI   54022			Sammy	Black/Tan	Rottweiler	Female	Spayed											
+Dog License-Pierce County	 2/09/2006	 1/01/2006	12/31/2006	2006-	     245	        5.00	Cindy Wiant	270 Kusilek St	River Falls,  WI   54022			Belle	Black/Tan	Longhair Dochshund	Female	Spayed											
+Dog License-Pierce County	 2/09/2006	 1/01/2006	12/31/2006	2006-	     246	       10.00	Cindy Wiant	270 Kusilek St	River Falls,  WI   54022			Copper	Red	Viszla	Male	UnNeutered											
+Dog License-Pierce County	 2/09/2006	 1/01/2006	12/31/2006	2006-	     247	        5.00	Cindy Wiant	270 Kusilek St	River Falls,  WI   54022			Dakota	Black/Tan	Longhair Dachshund	Male	Neutered											
+Dog License-Pierce County	 2/10/2006	 1/01/2006	12/31/2006	2006-	     248	       10.00	Cheryl Gilbert	959 Falcon Drive	River Falls,  WI   54022			Rufus	Yellow	Golden Retriever	Male	UnNeutered											
+Dog License-Pierce County	 2/10/2006	 1/01/2006	12/31/2006	2006-	     249	        5.00	Ailene Splittgerber	1331 Orange St	River Falls,  WI   54022			Toby	White	Bichon Frise	Male	Neutered											
+Dog License-Pierce County	 2/13/2006	 1/01/2006	12/31/2006	2006-	     250	        5.00	Ann Spivey	1234 W. Maple St.	River Falls,  WI   5402254022			Armstrong	Brindle	Greyhound	Male	Neutered											
+Dog License-Pierce County	 2/13/2006	 1/01/2006	12/31/2006	2006-	     251	        5.00	Mitsue Hayes	1425 Jefferson Ct	River Falls,  WI   54022			Reggie	Silver/White	Siberian Husky	Male	Neutered											
+Dog License-Pierce County	 2/13/2006	 1/01/2006	12/31/2006	2006-	     252	        5.00	Shirley Clark-Inactive	305 Wasson Court	River Falls,  WI   54022			Muffin-Inactive	Buff/White	Spaniel	Male	Neutered											
+Dog License-Pierce County	 2/14/2006	 1/01/2006	12/31/2006	2006-	     253	       10.00	Paul Adermann	W10204 879 Ave	River Falls,  WI   54022			Daisy	Liver/White	Pointer, Germ Shorth	Female	UnSpayed											
+Dog License-Pierce County	 2/14/2006	 1/01/2006	12/31/2006	2006-	     254	        5.00	Lori Colburn	1340 Short St	River Falls,  WI   54022			Chloe	Blk.Wht	Shih Tzu Mix	Female	Spayed											
+Dog License-Pierce County	 2/15/2006	 1/01/2006	12/31/2006	2006-	     255	        5.00	Mike Burke	835 Oak Knoll	River Falls,  WI   54022			Dexter	Black/Tan	German Shepard	Male	Neutered											
+Dog License-Pierce County	 2/15/2006	 1/01/2006	12/31/2006	2006-	     256	        5.00	Margaret Slowiak	585 Hamilton Ct	River Falls,  WI   54022			Champ	White	Bichon	Male	Neutered											
+Dog License-Pierce County	 2/15/2006	 1/01/2006	12/31/2006	2006-	     257	       10.00	Patrick Hmielewski	414 N Pearl St.	River Falls,  WI   54022			Niiji	Blue/White	Terrier	Male	UnNeutered											
+Dog License-Pierce County	 2/16/2006	 1/01/2006	12/31/2006	2006-	     258	        5.00	Sherri Parmeter	417 E Elm St	River Falls,  WI   54022			Reggie	Brown	Lab	Male	Neutered											
+Dog License-Pierce County	 2/16/2006	 1/01/2006	12/31/2006	2006-	     259	        2.00	Kathi Nelson	127 N 4th St.	River Falls,  WI   54022			Lucy	Golden	Lab X	Female	Spayed											
+Dog License-Pierce County	 2/17/2006	 1/01/2006	12/31/2006	2006-	     260	        5.00	Cal Wilkens	2138 Golf View Dr.	River Falls,  WI   54022			Midnight	Black	Black Lab	Female	Spayed											
+Dog License-Pierce County	 2/17/2006	 1/01/2006	12/31/2006	2006-	     261	        5.00	Lisa Stellrecht	1686 Valley Quail Dr	River Falls,  WI   54022			Sparky	Tan	Lhasa Apso/Poodle	Male	Neutered											
+Dog License-Pierce County	 2/17/2006	 1/01/2006	12/31/2006	2006-	     262	        5.00	Jamie Follstad	357 High Ridge Road	River Falls,  WI   54022			Mocha	Brown	Lab	Female	Spayed											
+Dog License-Pierce County	 2/17/2006	 1/01/2006	12/31/2006	2006-	     263	        5.00	Jodi Black	807 W. Locust	River Falls,  WI   54022			Lexi	Fawn	Boxer	Female	Spayed											
+Dog License-Pierce County	 2/17/2006	 1/01/2006	12/31/2006	2006-	     264	        5.00	Jodi Black	807 W. Locust	River Falls,  WI   54022			Winston	Fawn	Boxer	Male	Neutered											
+Dog License-Pierce County	 2/21/2006	 1/01/2006	12/31/2006	2006-	     265	        5.00	Katie Kreibich	320 S Falls St	River Falls,  WI   54022			Tyson	Black	Lab/Ret	Male	Neutered											
+Dog License-Pierce County	 2/21/2006	 1/01/2006	12/31/2006	2006-	     266	        5.00	Kim Serene	200 Kennedy St	River Falls,  WI   54022			Bear	Black	Lab/Retriv	Male	Neutered											
+Dog License-Pierce County	 2/22/2006	 1/01/2006	12/31/2006	2006-	     267	        5.00	Susan Vegsund	1219 Emily Circle	River Falls,  WI   54022			Bandit	Blk.Brown	Terrier/Yorkshire	Male	Neutered											
+Dog License-Pierce County	 2/22/2006	 1/01/2006	12/31/2006	2006-	     268	        5.00	Susan Vegsund	1219 Emily Circle	River Falls,  WI   54022			Mindy	Gold	Golden Retreiver	Female	Spayed											
+Dog License-Pierce County	 2/23/2006	 1/01/2006	12/31/2006	2006-	     269	        5.00	Thomas Soderberg	436 Kennedy St	River Falls,  WI   54022			Sisco	Tan/White	Collie/Shep	Male	Neutered											
+Dog License-Pierce County	 2/23/2006	 1/01/2006	12/31/2006	2006-	     270	        5.00	Stacia Hetrick	540 E. Division	River Falls,  WI   54022			Reggie	Fawn	Pug/Rat Terr	Male	Neutered											
+Dog License-Pierce County	 2/24/2006	 1/01/2006	12/31/2006	2006-	     271	        5.00	Dan Gregory	811 State St.	River Falls,  WI   54022			Bumper	Fawn	Rodigian Ridge Bank	Male	Neutered											
+Dog License-Pierce County	 2/28/2006	 1/01/2006	12/31/2006	2006-	     274	        5.00	Serena Weber	102 N. Pearl	River Falls,  WI   54022			Neo	Blue Merle	Long.Dachshund	Male	Neutered											
+Dog License-Pierce County	 2/28/2006	 1/01/2006	12/31/2006	2006-	     275	        5.00	Serena Weber	102 N. Pearl	River Falls,  WI   54022			Zero	Brown/White	Mixed	Male	Neutered											
+Dog License-Pierce County	 2/28/2006	 1/01/2006	12/31/2006	2006-	     276	        5.00	Gene McKahan	346 North Wasson	River Falls,  WI   54022			Barron	Brown/White	Jack Russell Terrier	Male	Neutered											
+Dog License-Pierce County	 2/28/2006	 1/01/2006	12/31/2006	2006-	     277	        5.00	Gene McKahan	346 North Wasson	River Falls,  WI   54022			Rambo-Inactive	Black/White	Jack Russell Terrier	Male	Neutered											
+Dog License-Pierce County	 3/02/2006	 1/01/2006	12/31/2006	2006-	     278	        5.00	Diane Meyer	1793 Wisconsin St.	River Falls,  WI   54022			Reggie	White	Toy Poodle/Maltese	Male	Neutered											
+Dog License-Pierce County	 3/03/2006	 1/01/2006	12/31/2006	2006-	     279	        5.00	Lori Edmundson	511 East Johnson	River Falls,  WI   54022			Bogie	Tan	Boxer-Mixed	Male	Neutered											
+Dog License-Pierce County	 3/03/2006	 1/01/2006	12/31/2006	2006-	     280	        5.00	Beth Liska	1473 Riverside Dr	Apt. 210	River Falls,  WI   54022		Lucky	Tan/White	Pit Bull	Male	Neutered											
+Dog License-Pierce County	 3/06/2006	 1/01/2006	12/31/2006	2006-	     281	        5.00	Gregory Corwin	521 River Hills Drive	River Falls,  WI   54022			Shandi	Tricolor	Beagle	Female	Spayed											
+Dog License-Pierce County	 3/06/2006	 1/01/2006	12/31/2006	2006-	     282	        5.00	Hugh & Sue Casement	645 Hazel	River Falls,  WI   54022			Shilo	TriColor	Walker Hound	Male	Neutered											
+Dog License-Pierce County	 3/06/2006	 1/01/2006	12/31/2006	2006-	     284	        5.00	Elisha Spielman	319 N 8th St	River Falls,  WI   54022			Axel	Black & White	Border Collie/ Blue	Male	Neutered											
+Dog License-Pierce County	 3/07/2006	 1/01/2006	12/31/2006	2006-	     285	        5.00	Katie Manor	102 N. 9th St.	River Falls,  WI   54022			Molly	Black	Lab	Female	Spayed											
+Dog License-Pierce County	 3/07/2006	 1/01/2006	12/31/2006	2006-	     286	        5.00	Jeanne Sobottka	411 E. Cedar	River Falls,  WI   54022			Millie	Brown	Choc.Lab/Spri	Female	Spayed											
+Dog License-Pierce County	 3/08/2006	 1/01/2006	12/31/2006	2006-	     288	       10.00	Richard Ritger	804 Valley View Dr	River Falls,  WI   54022			Mya	Black	Pug	Female	UnSpayed											
+Dog License-Pierce County	 3/08/2006	 1/01/2006	12/31/2006	2006-	     289	        5.00	Carole Kruger	325 N. Wasson Lane	River Falls,  WI   54022			Sasha	Brindle	Lhaso/Poodle	Female	Spayed											
+Dog License-Pierce County	 3/09/2006	 1/01/2006	12/31/2006	2006-	     291	        5.00	Jolene Hilliker	121 E Johnson Street	River Falls,  WI   54022			Rebel	Black/White	Pug/Shitzu	Male	Neutered											
+Dog License-Pierce County	 3/09/2006	 1/01/2006	12/31/2006	2006-	     292	        5.00	Roxann Mendoza	1752 Rodao Dr	River Falls,  WI   54022			Rocco	Brn/Blk/Wht	Jack/Russ/Ter	Male	Neutered											
+Dog License-Pierce County	 3/09/2006	 1/01/2006	12/31/2006	2006-	     293	        5.00	Royce Nelson-Inactive	1111 N. Cudd Ave.	River Falls,  WI   54022			Teddy-Inactive	Black&Tan	Min.Pin.	Male	Neutered											
+Dog License-Pierce County	 3/09/2006	 1/01/2006	12/31/2006	2006-	     294	        5.00	Royce Nelson-Inactive	1111 N. Cudd Ave.	River Falls,  WI   54022			Tilly-Inactive	White	Miniature Poodle	Female	Spayed											
+Dog License-Pierce County	 3/09/2006	 1/01/2006	12/31/2006	2006-	     295	        5.00	Royce Nelson-Inactive	1111 N. Cudd Ave.	River Falls,  WI   54022			Toby-Inactive	Black/Tan	Yorkie/JapChin	Male	Neutered											
+Dog License-Pierce County	 3/10/2006	 1/01/2006	12/31/2006	2006-	     296	        5.00	Jim Cleary	1038 W. Maple St.	River Falls,  WI   54022			Connell	Black/Tan	Gordon Setter	Male	Neutered											
+Dog License-Pierce County	 3/15/2006	 1/01/2006	12/31/2006	2006-	     297	       10.00	Steven Moore	612 High Ridge Road	River Falls,  WI   54022			Ben	Yellow	Lab/Retriever	Male	Neutered											
+Dog License-Pierce County	 3/15/2006	 1/01/2006	12/31/2006	2006-	     299	        5.00	Aaron Pablo	313 E Johnson St	River Falls,  WI   54022			Rex	Yellow	Lab	Male	Neutered											
+Dog License-Pierce County	 3/15/2006	 1/01/2006	12/31/2006	2006-	     300	        5.00	Aaron Pablo	313 E Johnson St	River Falls,  WI   54022			Oz	Tri - Black	German Shepherd	Male	Neutered											
+Dog License-Pierce County	 3/15/2006	 1/01/2006	12/31/2006	2006-	     301	        5.00	Jolene Hilliker	121 E Johnson Street	River Falls,  WI   54022			Ricco	Black W/White	Pom X Shih Tzu	Male	Neutered											
+Dog License-Pierce County	 3/15/2006	 1/01/2006	12/31/2006	2006-	     302	       10.00	Mike & Lynn Simon	1325 Washington St.	River Falls,  WI   54022			Buddy	Lv/Wht	English Springer	Male	UnNeutered											
+Dog License-Pierce County	 3/15/2006	 1/01/2006	12/31/2006	2006-	     303	        5.00	Vicki & David Kurtenbach	1110 Wasson Circle	River Falls,  WI   54022			Austin	Tan	Beagle	Male	Neutered											
+Dog License-Pierce County	 3/16/2006	 1/01/2006	12/31/2006	2006-	     304	        5.00	Joanne Haugen	321 Clark St	River Falls,  WI   54022			Pepper	Tri-Color	Australian Shep-X	Female	Spayed											
+Dog License-Pierce County	 3/16/2006	 1/01/2006	12/31/2006	2006-	     306	        5.00	Mark & Susan Colbeth	1747 Sorenson St.	River Falls,  WI   5402254022			Redford	Red	Poodle	Male	Neutered											
+Dog License-Pierce County	 3/17/2006	 1/01/2006	12/31/2006	2006-	     307	        5.00	Jayne Hoffman	648 River Ridge	River Falls,  WI   54022			Freckled	Tan/White	Cocker Spaniel	Female	Spayed											
+Dog License-Pierce County	 3/17/2006	 1/01/2006	12/31/2006	2006-	     308	        5.00	Jayne Hoffman	648 River Ridge	River Falls,  WI   54022			Snap	Black	Toy Poodle	Male	Neutered											
+Dog License-Pierce County	 3/17/2006	 1/01/2006	12/31/2006	2006-	     309	       10.00	Rick Troester	1126 E Division St	River Falls,  WI   54022			Drake	Black	Brittish Lab	Male	UnNeutered											
+Dog License-Pierce County	 3/20/2006	 1/01/2006	12/31/2006	2006-	     310	        5.00	Geri Struve	226 West Jefferson	River Falls,  WI   54022			Pugsley	Brown	Pekinese	Male	Neutered											
+Dog License-Pierce County	 3/21/2006	 1/01/2006	12/31/2006	2006-	     312	        5.00	Helen Turner	426 W. Walnut	River Falls,  WI   54022			Pepper	Brindle	Cairn Terr	Female	Spayed											
+Dog License-Pierce County	 3/21/2006	 1/01/2006	12/31/2006	2006-	     313	        5.00	Helen Turner	426 W. Walnut	River Falls,  WI   54022			Boomer	Tri	Jack Russell	Male	Neutered											
+Dog License-Pierce County	 3/21/2006	 1/01/2006	12/31/2006	2006-	     314	        5.00	Pat Berg	424 E Maple St.	River Falls,  WI   54022			Buddy	Black	Lab/Brittany	Male	Neutered											
+Dog License-Pierce County	 3/21/2006	 1/01/2006	12/31/2006	2006-	     315	        5.00	Josh Hudek	1352 Orange St	River Falls,  WI   5402254022			Demon	Black/White	Siberian Husky	Male	Neutered											
+Dog License-Pierce County	 3/22/2006	 1/01/2006	12/31/2006	2006-	     316	        5.00	Kimberly Wortman	1457 Wildcat Ct, Apt 104	River Falls,  WI   54022			Nevaeh	Buff	Cocker Spaniel	Female	Spayed											
+Dog License-Pierce County	 3/22/2006	 1/01/2006	12/31/2006	2006-	     317	        5.00	Lucy Purser	109 S 9th Street	River Falls,  WI   54022			Buffy	Black	Schnoodle	Female	Spayed											
+Dog License-Pierce County	 3/22/2006	 1/01/2006	12/31/2006	2006-	     318	        5.00	Lucy Purser	109 S 9th Street	River Falls,  WI   54022			Oscar	Tan & White	Shiz Mix	Male	Neutered											
+Dog License-Pierce County	 3/22/2006	 1/01/2006	12/31/2006	2006-	     319	       10.00	Scott Spradley	115 W. Park	River Falls,  WI   54022			Strange	Gold	Golden Ret	Male	UnNeutered											
+Dog License-Pierce County	 3/22/2006	 1/01/2006	12/31/2006	2006-	     320	        5.00	Joan Nickleby	115 W. Park St.	River Falls,  WI   54022			Odd	Red	Golden Ret	Female	Spayed											
+Dog License-Pierce County	 3/22/2006	 1/01/2006	12/31/2006	2006-	     321	       10.00	Joan Nickleby	115 W. Park St.	River Falls,  WI   54022			Ipy	Golden	Golden Ret	Female	UnSpayed											
+Dog License-Pierce County	 3/23/2006	 1/01/2006	12/31/2006	2006-	     322	        5.00	Jamie Exley	1550 E Division St	River Falls,  WI   54022			Jasper	Black & White	Beagle/Boarder X	Male	Neutered											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     323	       10.00	Janine Paurus	1315 S. Spruce	River Falls,  WI   54022			Emma	Bringle & White	Bull Dogge	Female	UnSpayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     324	        5.00	Janine Paurus	1315 S. Spruce	River Falls,  WI   54022			Zoe	Fawn	Pug	Female	Spayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     325	        5.00	Denise Thiede	415 N. Pearl	River Falls,  WI   54022			Sadie	Black/Tan	Shepard Mix	Female	Spayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     326	        5.00	Denise Thiede	415 N. Pearl	River Falls,  WI   54022			Sweet Pea	Black/White	Border Collie	Female	Spayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     327	        5.00	Denise Thiede	415 N. Pearl	River Falls,  WI   54022			Tip	Black/White	Border Collie	Female	Spayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     328	        5.00	Sue Zimmer-Inactive	1196 Foster Street	River Falls,  WI   54022			Ginger-Inactive	Buff	Cocker Spaniel	Female	Spayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     329	        5.00	Geoff & Casey Force	203 S. Falls St.	River Falls,  WI   54022			Kenya	Tan/Black	Collie Cross	Female	Spayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     330	        5.00	Geoff & Casey Force	203 S. Falls St.	River Falls,  WI   54022			Slippers	Brwn/Blk/Wht	Collie X	Female	Spayed											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     331	        5.00	Orv & Pamela Handy Jr	104 N Sixth St	River Falls,  WI   54022			Shadow	Gold/White	Golden Ret/Collie	Male	Neutered											
+Dog License-Pierce County	 3/24/2006	 1/01/2006	12/31/2006	2006-	     332	        5.00	Rebecca Forsland-Inactive	1979 Golfview Dr	River Falls,  WI   54022			Chloe-Inactive	Blonde	Golden Ret/Lab	Female	Spayed											
+Dog License-Pierce County	 3/27/2006	 1/01/2006	12/31/2006	2006-	     333	        5.00	Susan Tarr	348 Wesley Court	River Falls,  WI   54022			Ashley	Gray/Black	Weimerainer	Female	Spayed											
+Dog License-Pierce County	 3/27/2006	 1/01/2006	12/31/2006	2006-	     334	        5.00	Susan Tarr	348 Wesley Court	River Falls,  WI   54022			Zip	Gray/Silver	Weimerheimer	Female	Spayed											
+Dog License-Pierce County	 3/27/2006	 1/01/2006	12/31/2006	2006-	     336	        5.00	Yunge Dutton	800 Oak Knoll	River Falls,  WI   54022			Sunny	Sable & White	Sheltie	Female	Spayed											
+Dog License-Pierce County	 3/28/2006	 1/01/2006	12/31/2006	2006-	     337	        5.00	Larry & Pam Riemer	950 Morgan Rd.	River Falls,  WI   54022			Tito	Buff	Cockapoo	Male	Neutered											
+Dog License-Pierce County	 3/28/2006	 1/01/2006	12/31/2006	2006-	     338	        5.00	Kristyn Stanek	1345 Spruce St	River Falls,  WI   54022			Bo	Choc	Lab	Male	Neutered											
+Dog License-Pierce County	 3/28/2006	 1/01/2006	12/31/2006	2006-	     339	        5.00	Melinda Johnson	221 Kusilek	River Falls,  WI   54022			Baxter	Tri	Beagle	Male	Neutered											
+Dog License-Pierce County	 3/28/2006	 1/01/2006	12/31/2006	2006-	     340	        5.00	Kathy Wahl	403 N. 4th St	River Falls,  WI   54022			Mara	Orange/Brown	Welsh Corgi	Female	Spayed											
+Dog License-Pierce County	 3/29/2006	 1/01/2006	12/31/2006	2006-	     341	        5.00	Pam Olson	410 Cemetery Rd	River Falls,  WI   54022			Buddy	Orange/White	Spaniel	Male	Neutered											
+Dog License-Pierce County	 3/29/2006	 1/01/2006	12/31/2006	2006-	     342	        5.00	Judy Webster	521 West Cedar Street	River Falls,  WI   54022			Fergie	Black/Tan	German Shep.	Female	Spayed											
+Dog License-Pierce County	 3/29/2006	 1/01/2006	12/31/2006	2006-	     343	        5.00	Judy Webster	521 West Cedar Street	River Falls,  WI   54022			Sage	Buff	Cocker Spaniel	Female	Spayed											
+Dog License-Pierce County	 3/29/2006	 1/01/2006	12/31/2006	2006-	     344	        5.00	Ed Figi	135 Emory Dr.	River Falls,  WI   54022			Oliver	Red/White	Shepherd	Male	Neutered											
+Dog License-Pierce County	 3/29/2006	 1/01/2006	12/31/2006	2006-	     345	        5.00	Ed Figi	135 Emory Dr.	River Falls,  WI   54022			Olivia	Tri	Beagle	Female	Spayed											
+Dog License-Pierce County	 3/30/2006	 1/01/2006	12/31/2006	2006-	     346	        5.00	Kelly Waldo	1859 Wisconsin St.	River Falls,  WI   54022			Thor	Gold	Lab	Male	Neutered											
+Dog License-Pierce County	 3/30/2006	 1/01/2006	12/31/2006	2006-	     347	        5.00	Brian Drost	1052 South Fork Dr	River Falls,  WI   5402254022			Riley	Black/Tan	Shepard/Spaniel	Male	Neutered											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     348	        5.00	Troy Pesker	400 Park St.	River Falls,  WI   54022			Maggie	Liver/White	Eng. Springer	Female	Spayed											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     349	        5.00	Katie Peskar	400 W Park St	River Falls,  WI   54022			Leila	Liver/White	English Springer	Female	Spayed											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     350	        5.00	Valerie Sowa	328 N 4th St	River Falls,  WI   54022			Tucker	Chocolate	Ger Shthair Pointer	Male	Neutered											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     351	        5.00	Jane Mannetter	427 E Johnson St	River Falls,  WI   54022			Eddie	Black	Shepherd/Husky	Male	Neutered											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     352	        5.00	Heather Barringer	110 N. Pearl	River Falls,  WI   54022			Cheetah	Black	Lab/Setter	Male	Neutered											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     353	        5.00	Jon Benusa	1565 Foster Court	River Falls,  WI   54022			Gunner	Orange/White	Brittany Sp	Male	Neutered											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     354	        5.00	Sandy Johnson	1949 Golfview Dr	River Falls,  WI   54022			Crazy Girl	Fawn/White	Chihuahua	Female	Spayed											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     355	        5.00	Sandy Johnson	1949 Golfview Dr	River Falls,  WI   54022			Claudia	Choc	Lab Retrv	Female	Spayed											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     356	       10.00	Sandy Johnson	1949 Golfview Dr	River Falls,  WI   54022			Malery	Yellow	Lab Retrv	Male	UnNeutered											
+Dog License-Pierce County	 3/31/2006	 1/01/2006	12/31/2006	2006-	     357	       10.00	Sandy Johnson	1949 Golfview Dr	River Falls,  WI   54022			Alex	Yellow	Lab Retrv	Male	UnNeutered											
+Dog License-Pierce County	 4/03/2006	 1/01/2006	12/31/2006	2006-	     358	       10.00	Geri McKinney	400 Kennedy	River Falls,  WI   54022			Katy	Brown/Silver	Yorkshire Terrier	Female	Spayed											
+Dog License-Pierce County	 4/10/2006	 1/01/2006	12/31/2006	2006-	     360	       10.00	Sandy Linehan	458 Parkview Ln	River Falls,  WI   54022			Joon	Yellow	Lab Ret	Female	Spayed											
+Dog License-Pierce County	 4/10/2006	 1/01/2006	12/31/2006	2006-	     361	       10.00	Sandy Linehan	458 Parkview Ln	River Falls,  WI   54022			Molly	Black	Lab-Mix	Female	Spayed											
+Dog License-Pierce County	 4/10/2006	 1/01/2006	12/31/2006	2006-	     362	       10.00	Jenelle Gregor	519 W Johnson	River Falls,  WI   54022			Molly	Liver & White	English Springer	Female	Spayed											
+Dog License-Pierce County	 4/11/2006	 1/01/2006	12/31/2006	2006-	     363	        5.00	Melanie Nowak	1838 Rodao Dr	River Falls,  WI   54022			Buttons	Tri	Cocker Spanial	Male	Neutered											
+Dog License-Pierce County	 4/12/2006	 1/01/2006	12/31/2006	2006-	     364	       10.00	Harold D. Henson	212 S. Wasson Ln	River Falls,  WI   54022			Sparkie	Black/Tan/White	Sheltie/Pom	Male	Neutered											
+Dog License-Pierce County	 4/12/2006	 1/01/2006	12/31/2006	2006-	     366	       10.00	Harold D. Henson	212 S. Wasson Ln	River Falls,  WI   54022			Dusty	Black/Brown	Yorkie	Male	Neutered											
+Dog License-Pierce County	 4/12/2006	 1/01/2006	12/31/2006	2006-	     367	       10.00	Aimee Pace	401 Church St.	River Falls,  WI   54022			Pugsley	Fawn	Pug Mix	Male	UnNeutered											
+Dog License-Pierce County	 4/12/2006	 1/01/2006	12/31/2006	2006-	     368	        5.00	Brenda Close	317 N. Wasson	River Falls,  WI   54022			Riley	Black	Lab	Male	Neutered											
+Dog License-Pierce County	 4/17/2006	 1/01/2006	12/31/2006	2006-	     369	        5.00	Timothy Kufus	721 1/2 S Main St	River Falls,  WI   54022			Haylee	Black & White	Boarder Collie	Female	Spayed											
+Dog License-Pierce County	 4/19/2006	 1/01/2006	12/31/2006	2006-	     370	        5.00	Abigial Testa	112 E Johnson St	River Falls,  WI   54022			Lilly	Black & Silver	Yorkshire Terr	Female	Spayed											
+Dog License-Pierce County	 4/20/2006	 1/01/2006	12/31/2006	2006-	     371	       10.00	Clorissa Olson	224 E Broadway	River Falls,  WI   54022			Riley	Tan	Cocker	Male	Neutered											
+Dog License-Pierce County	 4/21/2006	 1/01/2006	12/31/2006	2006-	     372	       10.00	Brian Paulson	359 Bobwhite	River Falls,  WI   5402254022			Chubbs	Black/White	Shepard Mix	Male	Neutered											
+Dog License-Pierce County	 4/21/2006	 1/01/2006	12/31/2006	2006-	     373	       10.00	Marlys Nelson	1206 Washington Ct.	River Falls,  WI   54022			Brandon	Red	Peke	Male	Neutered											
+Dog License-Pierce County	 4/25/2006	 1/01/2006	12/31/2006	2006-	     374	       10.00	Paul Amendt	715 South Fork	River Falls,  WI   54022			Lily	Chocolate	Choc Lab/Aust Shep	Female	UnSpayed											
+Dog License-Pierce County	 4/25/2006	 1/01/2006	12/31/2006	2006-	     375	       10.00	Jeannie Mulhurn	217 W Church St	River Falls,  WI   54022			Bandit	Tri Color	Beagle Mix	Male	Neutered											
+Dog License-Pierce County	 4/26/2006	 1/01/2006	12/31/2006	2006-	     376	       10.00	Larry Danielson	1221 Emily Circle	River Falls,  WI   54022			Chloe	Black/White	Jack Russell	Female	Spayed											
+Dog License-Pierce County	 4/26/2006	 1/01/2006	12/31/2006	2006-	     377	       10.00	Larry Danielson	1221 Emily Circle	River Falls,  WI   54022			Dexter	Blk & Wht	Rat Terrior	Male	Neutered											
+Dog License-Pierce County	 4/27/2006	 1/01/2006	12/31/2006	2006-	     378	       10.00	Nancy Miller	633 S. Washington	River Falls,  WI   54022			Dusty	Brindle	Pug	Male	Neutered											
+Dog License-Pierce County	 4/28/2006	 1/01/2006	12/31/2006	2006-	     379	        5.00	Stasia Robbie	203 N 9th St.	River Falls,  WI   54022			Stella	Gray	Cockapoo	Female	Spayed											
+Dog License-Pierce County	 5/02/2006	 1/01/2006	12/31/2006	2006-	     380	        5.00	Mark Desjardins	PO Box 372	River Falls,  WI   54022			Nanuk	Black/White	Malamute	Female	Spayed											
+Dog License-Pierce County	 5/02/2006	 1/01/2006	12/31/2006	2006-	     381	       10.00	Tina Raehsler	1640 Wisconsin St.	River Falls,  WI   54022			Dutches	Chocolate	Lab	Female	Spayed											
+Dog License-Pierce County	 5/03/2006	 1/01/2006	12/31/2006	2006-	     382	        5.00	Rhonda Mathis	1621 Centennial Dr	River Falls,  WI   54022			Lexi	Golden	Golden Retriever	Female	Spayed											
+Dog License-Pierce County	 5/03/2006	 1/01/2006	12/31/2006	2006-	     383	        5.00	Rhonda Mathis	1621 Centennial Dr	River Falls,  WI   54022			Zoe	Fawn	Boxer	Female	Spayed											
+Dog License-Pierce County	 5/04/2006	 1/01/2006	12/31/2006	2006-	     384	        5.00	Joanne Larson	753 Lumphrey	River Falls,  WI   54022			Brody	Black/White	Shih Tzu	Male	Neutered											
+Dog License-Pierce County	 5/08/2006	 1/01/2006	12/31/2006	2006-	     385	       10.00	Robert Jenson	228 S. 3rd St.	River Falls,  WI   54022			Cora	Brown/White	Springer Spaniel	Female	Spayed											
+Dog License-Pierce County	 5/15/2006	 1/01/2006	12/31/2006	2006-	     386	        5.00	Ramona Johnson	1546 S Wasson Ln #7	River Falls,  WI   54022			Tregan	Tri	Rat Terrier	Female	Spayed											
+Dog License-Pierce County	 5/18/2006	 1/01/2006	12/31/2006	2006-	     387	       10.00	Lani Schoenick	318 W Park St	River Falls,  WI   54022			Tilly	Wht & Blk	Papillon	Female	Spayed											
+Dog License-Pierce County	 5/19/2006	 1/01/2006	12/31/2006	2006-	     388	        5.00	Meg Andrea	1503 River Ridge Rd	River Falls,  WI   54022			Sammy	Liver/White	German Shorthair	Male	Neutered											
+Dog License-Pierce County	 5/19/2006	 1/01/2006	12/31/2006	2006-	     389	       10.00	Jenny Groves	815 Orange St	River Falls,  WI   54022			Free	Wht/Tan	Amer Staffordshire	Female	UnSpayed											
+Dog License-Pierce County	 5/19/2006	 1/01/2006	12/31/2006	2006-	     390	       10.00	Jenny Groves	815 Orange St	River Falls,  WI   54022			Daisy	Red/Wht	Pit Bull	Female	UnSpayed											
+Dog License-Pierce County	 5/22/2006	 1/01/2006	12/31/2006	2006-	     391	        5.00	Dee Schultz	657 Meadowbrook Lane	River Falls,  WI   54022			Tilly	Salt & Pepper	Miniture Schnauzer	Female	Spayed											
+Dog License-Pierce County	 5/22/2006	 1/01/2006	12/31/2006	2006-	     392	       10.00	Brian Thompson	1351 Orange Street	River Falls,  WI   54022			Ellie	Black	Black Lab	Female	UnSpayed											
+Dog License-Pierce County	 5/24/2006	 1/01/2006	12/31/2006	2006-	     393	        5.00	Kevin & Brenda Purtell	684 South Main	River Falls,  WI   54022			Terra	Yellow	Lab Ret	Female	Spayed											
+Dog License-Pierce County	 5/25/2006	 1/01/2006	12/31/2006	2006-	     394	       10.00	Eric Sykes	1218 State St	River Falls,  WI   54022			Rocky	Brown/White	Cocker	Male	Neutered											
+Dog License-Pierce County	 5/25/2006	 1/01/2006	12/31/2006	2006-	     395	        5.00	Eric Sykes	1218 State St	River Falls,  WI   54022			Charlie	Black/White	Cocker	Male	Neutered											
+Dog License-Pierce County	 5/26/2006	 1/01/2006	12/31/2006	2006-	     397	        5.00	Mark Desjardins	PO Box 372	River Falls,  WI   54022			Lexi	Gold	Golden Retrv	Female	Spayed											
+Dog License-Pierce County	 5/26/2006	 1/01/2006	12/31/2006	2006-	     398	        5.00	Greg Zalesky	1684 Rolling Hills Lane	River Falls,  WI   54022			Angel	Brindle	Staff. Terrier	Female	Spayed											
+Dog License-Pierce County	 5/26/2006	 1/01/2006	12/31/2006	2006-	     399	        5.00	Greg Zalesky	1684 Rolling Hills Lane	River Falls,  WI   54022			Rocky	Blk/Tan	Sherpherd Mix	Male	Neutered											
+Dog License-Pierce County	 5/30/2006	 1/01/2006	12/31/2006	2006-	     400	        5.00	Kerry Quin	951 Hazel St.	River Falls,  WI   54022			Shadow	Black	Mn. Poodle	Male	Neutered											
+Dog License-Pierce County	 6/06/2006	 1/01/2006	12/31/2006	2006-	     401	       10.00	Laura C. Walsh-Inactive	613 Lake Street	River Falls,  WI   54022			Max-Inactive	Blk/Tan	Shepard X	Male	Neutered											
+Dog License-Pierce County	 6/06/2006	 1/01/2006	12/31/2006	2006-	     402	       10.00	Jill Peters	414 N Dallas St	River Falls,  WI   54022			Bubba	Black	Newfoundland	Male	Neutered											
+Dog License-Pierce County	 6/06/2006	 1/01/2006	12/31/2006	2006-	     403	       10.00	Jill Peters	414 N Dallas St	River Falls,  WI   54022			Cleo	Black/Tan	Doberman	Female	Spayed											
+Dog License-Pierce County	 6/07/2006	 1/01/2006	12/31/2006	2006-	     404	        5.00	Ann Peterson	1315 Washington St	River Falls,  WI   54022			Soloman	Yellow	Lab Retriever	Male	Neutered											
+Dog License-Pierce County	 6/07/2006	 1/01/2006	12/31/2006	2006-	     405	        5.00	Ann Peterson	1315 Washington St	River Falls,  WI   54022			Rhizo	Chocolate	Lab Retriever	Male	Neutered											
+Dog License-Pierce County	 6/09/2006	 1/01/2006	12/31/2006	2006-	     406	        5.00	John Isaacson	1029 Morgan Rd	River Falls,  WI   54022			Kodie	Black & White	Siberian Husky	Male	Neutered											
+Dog License-Pierce County	 6/19/2006	 1/01/2006	12/31/2006	2006-	     407	        5.00	Lynette Benge	11123 N. Cudd	River Falls,  WI   54022			Petey	Blk	Poodle	Male	Neutered											
+Dog License-Pierce County	 6/29/2006	 1/01/2006	12/31/2006	2006-	     408	        5.00	Susan Wiegrefe	217 N 8th St	River Falls,  WI   54022			Joey	Black W/White	Havanese	Male	Neutered											
+Dog License-Pierce County	 7/05/2006	 1/01/2006	12/31/2006	2006-	     409	        2.50	Tammy Stifter	930 Falcon Drive	River Falls,  WI   54022			Teddy	Cream	Shih-Tzu/Lhasa	Male	Neutered											
+Dog License-Pierce County	 7/12/2006	 1/01/2006	12/31/2006	2006-	     410	        2.50	Dianne Beadles	825 Bartosh Lane	River Falls,  WI   54022			Zoey	Black/White	Border Collie	Female	Spayed											
+Dog License-Pierce County	 7/21/2006	 1/01/2006	12/31/2006	2006-	     411	        5.00	Dan & Lori McGinty	427 River Hills Road	River Falls,  WI   54022			Raven	Yellow	Lab	Female	Spayed											
+Dog License-Pierce County	 7/21/2006	 1/01/2006	12/31/2006	2006-	     412	        2.50	Pat Larsen	139 S Ninth St	River Falls,  WI   54022			Sophie	Brown/White	English Springer	Female	Spayed											
+Dog License-Pierce County	 7/26/2006	 1/01/2006	12/31/2006	2006-	     413	        2.50	Lindsey Kotelnicki	2449 K Daws Place	River Falls,  WI   54022			Sugar Bear	Yellow	Yellow Lab	Female	Spayed											
+Dog License-Pierce County	 8/01/2006	 1/01/2006	12/31/2006	2006-	     414	        2.50	Hubert Ross	1641 Centennial Dr	River Falls,  WI   54022			Missy	Black/White	Jack Russell	Female	Spayed											
+Dog License-Pierce County	 8/08/2006	 1/01/2006	12/31/2006	2006-	     415	        2.50	Hallie Neuhaus	530 Birch St	River Falls,  WI   54022			Casey	Sable/White	Sheltie	Male	Neutered											
+Dog License-Pierce County	 8/10/2006	 1/01/2006	12/31/2006	2006-	     416	        5.00	Kim Warneke	571 Hamilton Ct.	River Falls,  WI   54022			Riley	Gold	Golden Retriever	Female	UnSpayed											
+Dog License-Pierce County	 8/14/2006	 1/01/2006	12/31/2006	2006-	     417	        2.50	Jessie Larson	1119 Broadway St	River Falls,  WI   54022			Drex	Black, Tan	Yorkie	Male	Neutered											
+Dog License-Pierce County	 8/14/2006	 1/01/2006	12/31/2006	2006-	     419	        2.50	Jessie Larson	1119 Broadway St	River Falls,  WI   54022			Bo	Black, Tan	Dacshund	Male	Neutered											
+Dog License-Pierce County	 8/14/2006	 1/01/2006	12/31/2006	2006-	     420	        7.50	Mialisa Moline	521 River Hills Dr	River Falls,  WI   54022			Mollie	White	Mixed	Female	Spayed											
+Dog License-Pierce County	 8/16/2006	 1/01/2006	12/31/2006	2006-	     421	        2.50	David Halverson	320 N Pearl St.	River Falls,  WI   54022			Buhund	Blk/Wht	Terrier	Male	Neutered											
+Dog License-Pierce County	 8/17/2006	 1/01/2006	12/31/2006	2006-	     422	        2.50	Sue Dzubay	424 Birch St.	River Falls,  WI   54022			Spud	Choc	Lab	Male	Neutered											
+Dog License-Pierce County	 8/21/2006	 1/01/2006	12/31/2006	2006-	     423	        2.50	Tom & Chris Fenske	1546 Covey Dr	River Falls,  WI   54022			Ozzy	Black/White	Bulldog	Male	Neutered											
+Dog License-Pierce County	 8/31/2006	 1/01/2006	12/31/2006	2006-	     424	        5.00	Amy Jensen	1063 E Cascade Ave #14	River Falls,  WI   54022			Tank	Piebald	Mini Dashshund	Male	UnNeutered											
+Dog License-Pierce County	 8/31/2006	 1/01/2006	12/31/2006	2006-	     425	        2.50	Amy Jensen	1063 E Cascade Ave #14	River Falls,  WI   54022			Roxy	Red	Mini Dachshund	Female	Spayed											
+Dog License-Pierce County	 9/05/2006	 1/01/2006	12/31/2006	2006-	     426	        5.00	Steven Moore	612 High Ridge Road	River Falls,  WI   54022			Cooper	Black	Lab	Male	Neutered											
+Dog License-Pierce County	 9/28/2006	 1/01/2006	12/31/2006	2006-	     427	        2.50	Kathleen Maude	921 Cascade Ave	River Falls,  WI   54022			Grover	Gray & White	Pit Bull X	Male	Neutered											
+Dog License-Pierce County	10/03/2006	 1/01/2006	12/31/2006	2006-	     428	        2.50	Lenny Austin	1718 Rodao Dr	River Falls,  WI   54022			Howie	Brown	Min.Dachshund	Male	Neutered											
+Dog License-Pierce County	10/09/2006	 1/01/2006	12/31/2006	2006-	     429	        2.50	Susan Caparelli	1450 River Ridge Rd	River Falls,  WI   54022			Chase	Black/White	Great Dane	Male	Neutered											
+Dog License-Pierce County	10/24/2006	 1/01/2006	12/31/2006	2006-	     430	        2.50	Jon Dorsey	158 Sunwood Valley	River Falls,  WI   54022			Patch	Yellow	Lab	Female	Spayed											
+Dog License-Pierce County	10/24/2006	 1/01/2006	12/31/2006	2006-	     431	        2.50	Jon Dorsey	158 Sunwood Valley	River Falls,  WI   54022			Carlos	Yellow	Lab	Female	Spayed											
+Dog License-Pierce County	11/03/2006	 1/01/2006	12/31/2006	2006-	     434	        2.50	Larry Potton	221 Washington St	River Falls,  WI   54022			Molly	Black	Lab X Golden	Female	Spayed											
