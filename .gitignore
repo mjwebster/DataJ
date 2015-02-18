@@ -1,3 +1,6 @@
+Excel_UMNdataanalysis.docx
+
+
 #################
 ## Eclipse
 #################
@@ -40,6 +43,9 @@ local.properties
 *.suo
 *.user
 *.sln.docstates
+
+
+
 
 # Build results
 
