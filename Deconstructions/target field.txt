@@ -1,0 +1,11 @@
+I’ve had some fun the past couple of weeks returning to my old stomping grounds — the sports pages — for a story on why the Minnesota Twins baseball team can’t seem to hit home runs at their relatively new stadium, Target Field.
+
+This is the kind of thing I did regularly in my previous job doing data analysis for the USA Today sports department. One of the unique aspects of analyzing sports data is that it usually involves a little creativity. All the basic data analysis is already done by a gazillion other news organizations and websites. To find something truly unique, you’ve got to get creative or at least go beyond straight sports data.
+
+That’s what my colleague Ben Goessling and I did. We married home run data and weather data for each of the 164 games played at Target Field the first two years the stadium was open (2010 and 2011).
+
+Then we looked for patterns in home runs depending on the weather conditions. We saw pretty much what a meteorologist – who is also a big baseball fan — told us we’d find. Certain wind conditions, including one that is very common during the summer, make it very difficult to hit home runs particularly those going to right field. The wind comes into the stadium in a unique fashion that works against the hitter, especially a left-handed hitter. Unfortunately for the Twins, their best hitters are lefties.
+
+After compiling all this data, I thought readers would love to troll through this data, as well. So I built this searchable database that allows a user to see all the stats — both baseball and weather — for all 164 games.
+
+It isn’t the fanciest interactive (it actually uses quite old technology), but it didn’t take long to build and hopefully it will be something fun for readers to enjoy.

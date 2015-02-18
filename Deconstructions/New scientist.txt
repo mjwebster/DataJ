@@ -1,0 +1,13 @@
+Here's a fairly straightforward data story: http://www.newscientist.com/article/dn18806-revealed-pfizers-payments-to-censured-doctors.html
+
+Payment data was scraped from Pfizer website, using a Perl script written by Brad Stenger, who has additional reporting credit. I already had the state medical board databases from downloads/public records requests. FDA warning letter data downloaded from website. 
+
+Then database joins on first and last name, followed by follow-up work to establish whether they were actually the same guys. 
+
+I use part of my work for this to teach database reporting with Access (data can be downloaded from my website) to my science journalism students at UC Santa Cruz: http://www.peteraldhous.com/CAR/Database_tutorial_in_Access_2010.pdf
+
+Not sure it's of any use, but you're welcome to use with credit
+
+Peter Aldhous, PhD
+San Francisco Bureau Chief,
+New Scientist magazine,

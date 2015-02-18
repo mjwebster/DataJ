@@ -1,0 +1,39 @@
+
+This contains salary information for everyone paid a salary in 2008 by the Metropolitan Council. 
+
+Here are some code translations and other information you might need to know about this data:
+MTRAN --Metro Transit
+RGADM--Regional Administration
+ENVSR --Environmental Services
+ 
+Metro Transit and Environmental Services are Met Council’s two big operating units. Metro Transit has a fleet of 830 buses and 27 light rail vehicles that serve 113 routes and provide about 250,000 rides per weekend. Environmental Services has eight regional plants and 600 miles of regional sewer that collect and treat some 300 million gallons of wastewater per day from more than 100 metro area communities.
+ 
+For the purposes of this payroll listing, Regional Administration includes all of Met Council’s central and support services, as well as the Community Development Division (local-regional planning, regional parks planning and Metro HRA) and the Metropolitan Transportation Services Division (which includes operating Metro Mobility, overseeing a number of contracted transit routes, and transportation planning).
+
+It also includes the salaries of the 16 council members, who are elected officials and get paid a flat salary, regardless of the hours they work.
+
+Salaries for non-elected employees are broken down by base pay, overtime pay, recognition pay and payout. Recognition pay would be from awards (years of service, employee of the month, etc). Payout primarily consists of pay for accumulated vacation and leave when an employee leaves the agency and/or pay for unused floating holidays as provided for in contracts with several of the bargaining units.
+
+
+	
+ID	Unique employee ID number
+LASTNAME	Employee last name
+FIRSTNAME	Employee first name
+JOBTITLE	Employee's job title
+UNIT	Unit within Met Council (see codes)
+HRSWK	Scheduled hours per week
+ BASERT 	Base pay rate (annual)
+ HRLYRATE 	Hourly pay rate
+ BASESALARY 	Base salary earned in 2008
+ OT 	Overtime earned in 2008
+ RECOGNITION 	Recognition pay earned in 2008
+ PAYOUT 	Payout earned in 2008
+ TOTALPAY 	Total pay earned in 2008 (total of the previous four columns)
+STARTDATE	Job start date
+ENDDATE	Job end date (if no longer employed)
+ MINHOUR 	Minimum hourly wage for this position
+ MINANNUAL 	Minimum annual wage for this position
+ MAXHOUR 	Maximum hourly wage for this position
+ MAXANNUAL 	Maximum annual wage for this position
+WORKLOCATION	Employee's work location
+UNION	Employee's union (if applicable)
