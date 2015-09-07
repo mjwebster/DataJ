@@ -1,0 +1,4 @@
+common errors in Access:
+
+on import, fail to choose the text qualifier option -- tipoff that there's a problem is if you get error messages on numeric or date fields that you didn't expect (look at the records that had the problem and you'll likely see the quote marks in the fields and that data goes split across several fields)
+
