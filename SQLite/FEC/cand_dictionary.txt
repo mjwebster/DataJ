@@ -1,0 +1,180 @@
+revised 09/29/2008
+CANDIDATE MASTER FILE
+Federal Election Commission
+999 E Street, NW
+Washington, DC  20463
+
+DATA DESCRIPTION
+Candidate Master File
+
+The zipped file should be downloaded as binary unzipped.  
+
+Summary:
+The candidate master file includes one record for each candidate who has either registered with the Federal Election Commission or appeared on a ballot list prepared by a state elections office. The file contains basic information about the candidate, including name, party, whether the candidate is an incumbent, challenger, or involved in an open seat, address, state and district in which the candidate is running and the year of the election for which the candidate is registered. (Note that incumbent/challenger status is dynamic in the current election cycle and there may be delays in identifying districts that will involve open seats.  Further, the definition of an open seat is one in which the incumbent never sought reelection. Therefore, districts where incumbents lose primaries are not classified as open seat.)  The file also includes the ID number assigned to the candidate by the FEC which is used in tracking campaign finance information about the campaign, as well as the ID number of the candidate's principal campaign committee.
+
+Universe:
+All candidates for federal office who registered with the Federal Election Commission or appeared on a ballot list prepared by a state elections office.  This includes candidates in prior elections and those raising funds for future campaigns.
+
+Associated Files:
+
+Data File:  	        CNXX.ZIP
+Frequency Counts:	CNXX.TXT
+Data Dictionary:	CN_DICTIONARY.TXT	
+
+
+The variables have been formatted in the following ways:
+VariableColumns    Desc
+
+Candidate Identification       		1-9         9s
+Candidate Name      			10-47      38s
+Party Designation No. 1       		48-50       3s
+Filler    				51-53       3s
+Party Designation No. 3       		54-56       3s
+Incumb./Challeng./Open-seat		57          1s
+Filler					58          1s
+Candidate Status       			59          1s
+Street One				60-93      34s
+Street Two				94-127     34s
+City or Town       			128-145    18s
+State    				146-147     2s
+Zip Code 				148-152     5s
+Principal Campaign Comm. I.D.		153-161     9s
+Year of Election   			162-163     2d
+Current District   			164-165     2s
+
+Data Type: s=string (alpha or alpha-numberic) d=date
+
+Variable Documentation   
+
+
+Candidate Identification
+Columns 1-9
+String
+
+A 9-character alpha-numeric code assigned to a candidate by the Federal Election Commission. The candidate ID for a specific candidate remains the same across election cycles as long as the candidate is running for the same office.
+
+----------
+Candidate Name
+Columns 10-47
+String
+
+The reported name of a candidate in a federal election.
+
+----------
+Candidate Party Designation 1
+Columns 48-50
+String
+
+The political party affiliation reported by the candidate.
+
+---------
+Filler
+Columns 51-53
+String
+
+Note: This place holder has been deleted from MS Access
+database file.
+
+---------
+Candidate Party Designation 3
+Columns 54-56
+Party Designation Number 3 may have a value if no statement of candidacy was received.  This information is taken from any other available source (e.g. state ballot lists, published information, etc.)
+
+----------
+Candidate Incumbent/Challenger/Open-seat Status
+Columns 57-57
+String
+
+I	INCUMBENT
+C	CHALLENGER
+O	OPEN
+
+Candidate Incumbent/Challenger/Open-seat Status indicates if the candidate is the incumbent for the sought after office, the challenger, or if the seat is open. A null value is the default value for challengers.
+
+'C' is used to indicate the candidate is a challenger in the current election cycle but had some other status in a previous election cycle.
+
+'I' is used to indicate the candidate is the incumbent office holder.
+
+'O' is used to indicate an open seat. Open seats are defined as seats where the incumbent never sought re-election.  There can be cases where an incumbent is defeated in the primary election.  In these cases there will be two or more challengers in the general election.
+
+----------
+Filler
+Columns 58-58
+String
+
+
+Note: This place holder has been deleted from MS Access database file.
+
+
+----------
+Candidate Status
+Columns 59-59
+String
+
+C	STATUTORY CANDIDATE
+F	STATUTORY CANDIDATE FOR FUTURE ELECTION
+N	NOT YET A STATUTORY CANDIDATE
+P	STATUTORY CANDIDATE IN PRIOR CYCLE
+	
+
+Current Statutory Candidate: A declared candidate for the current election cycle and has raised or spent $5,000.
+
+Future: A declared candidate for a future election cycle. The candidate has met the $5,000 contribution or spending threshold.
+
+Non Candidate: A declared candidate for the current election cycle but has not raised or spent $5,000.
+
+Prior: A declared candidate in a past election cycle. The candidate met the $5,000 contribution or spending threshold in the past cycle.
+In the current cycle, the candidate is paying off debt.
+
+
+----------
+Street 1
+Columns 60-93
+String
+
+----------
+Street 2
+Columns 94-127
+String
+
+----------
+City
+Columns 128-145
+String
+
+----------
+State
+Columns 146-147
+String
+
+----------
+ZIP Code
+Columns 148-152
+String
+
+Note: Street, City, State, and ZIP Code information are taken directly from the Statement of Candidacy (FEC Form 2).
+
+----------
+Principal Campaign Committee Identification
+Columns 153-161
+String
+
+The ID assigned by the Federal Election Commission to the candidate's principal campaign committee for a given election cycle.
+
+----------
+Year of Election
+Columns 162-163
+Date
+
+Year of the election for which the candidate is running for office.
+
+----------
+Current District
+Columns 164-165
+String
+
+District in which the candidate is running. For presidential and senate candidates this field will be missing or have a value of
+zero (00).
+
+
+

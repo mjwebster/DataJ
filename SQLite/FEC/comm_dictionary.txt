@@ -1,0 +1,213 @@
+revised 05/13/2009
+COMMITTEE MASTER FILE
+Federal Election Commission
+999 E Street, NW
+Washington, DC  20463
+
+DATA DESCRIPTION
+Commitee Master File
+
+The zipped file should be downloaded as binary and unzipped.
+
+Summary:
+This file contains one record for each committee registered with the Federal Election Commission.  This includes federal political action committees and party committees, campaign committees for presidential, house and senate candidates, as well as groups or organizations who are spending money for or against candidates for federal office.
+
+The file contains basic information about the committees.  The ID number the Commission assigned to the committee is first, along with the name of the committee, the sponsor, where appropriate, the treasurer's name and the committee's address.  The file also includes information about what type of committee is being described, along with the candidate's ID number if it is a campaign committee.
+
+Universe:
+All committees registered with the Federal Election Commission.
+
+Associated Files:
+
+Data File:  	        CMXX.ZIP
+Frequency Counts:	CMXX.TXT
+Data Dictionary:	CM_DICTIONARY.TXT	
+
+The variables have been formatted in the following ways:
+
+VariableColumns    Desc
+
+Committee Identification          1-9       9s
+Committee Name      		  10-99    90s
+Treasurer's Name   		100-137    38s
+Street One         		138-171    34s
+Street Two         		172-205    34s
+City or Town       		206-223    18s
+State    			224-225     2s
+Zip Code 			226-230     5s
+Committee Designation        	231-231     1s
+Committee Type		232-232     1s
+Committee Party    		233-235     3s
+Filing Frequency   		236-236     1s
+Interest Group Category      	237-237     1s
+Connected Organiz's Name	238-275    38s
+Candidate Identification	276-284     9s
+
+
+VARIABLE DOCUMENTATION  
+
+
+Committee Identification
+Columns 1-9
+String
+
+A 9-character alpha-numeric code assigned to a committee by the Federal Election Commission.  The committee ID for a specific committee always remains the same.
+
+---------
+Committee Name
+Columns 10-99
+String
+
+Reported name of a committee.
+
+---------
+Treasurer's Name
+Columns 100-137
+String
+
+The officially registered treasurer for the committee.
+
+---------
+Street One
+Columns 138-171
+String
+
+---------
+Street Two
+Columns 172-205
+String
+
+---------
+City or Town
+Columns 206-223
+String
+
+---------
+State
+Columns 224-225
+String
+
+---------
+U.S. Postal ZIP Code
+Columns 226-230
+String 
+
+Note:  Street, City, State, and ZIP Code information are taken from the Statement of Organization (FEC Form 1).
+
+---------
+Committee Designation
+Columns 231-231
+String
+
+A	AUTHORIZED BY A CANDIDATE
+J	JOINT FUND RAISER
+P	PRINCIPAL CAMPAIGN COMMITTEE OF A CANDIDATE
+U	UNAUTHORIZED
+B	LOBBYIST/REGISTRANT PAC
+D	LEADERSHIP PAC
+
+The committee designation code indicates if a committee is part of a campaign or not part of a campaign.
+
+Committees with designations 'A' and 'P' are part of a candidate's campaign effort.  Committees with a 'U' designation are not part of a candidate's campaign.  Committees with a missing designation are unauthorized.
+
+Committees with a 'J' designation may be part of a candidate's campaign.  These joint fund raising committees may include combinations of candidates, parties, and non-parties.  When candidates join a joint fund raising committee the committee is part of that candidate's campaign.
+
+
+
+---------
+Committee Type
+Columns 232-232
+String
+
+The committee type code indicates the type of committee.
+
+C	COMMUNICATION COST
+D	DELEGATE
+H	HOUSE
+I	INDEPENDENT EXPENDITURE(PERSON OR GROUP, NOT A COMMITTEE)
+N	NON-PARTY NON-QUALIFIED
+P	PRESIDENTIAL
+Q	QUALIFIED NON-PARTY(SEE 2USC SECT.441(A)(4))
+S	SENATE
+X	NON-QUALIFIED PARTY
+Y	QUALIFIED PARTY(SEE 2USC SECT.441(A)(4))
+Z	NATIONAL PARTY ORGANIZATION. NON FED ACCT.
+E	ELECTIONEERING COMMUNIC
+
+Communication (C) costs are made by organizations (corporations, unions, etc.) and are communications directly to their members or appropriate employees.  These committees can either support a clearly identified candidate or oppose a candidate.
+
+Delegate (D) committees are organized for the purpose of influencing the selection of delegates to Presidential nominating conventions.  The term includes a group of delegates, a group of individuals seeking to become delegates, and a group of individuals supporting delegates.
+
+Electioneering Communications (E)
+
+House (H)
+
+Independent (I) expenditures are expenditures for a communication which expressly advocates the election or defeat of a clearly identified candidate and which is not made with the cooperation or prior consent of, or in consultation with or at the request or suggestion of, any candidate or authorized committee or agent of a candidate.  These are individuals or groups not otherwise registered as political committees who undertake independent expenditures.
+
+Non-Party non-Qualified (N) committees are separate segregated funds and nonconnected committees that have not qualified as multi-candidate committees.  A non-qualified committee may contribute up to $1,000 per candidate per election.
+
+Presidential (P)
+
+Qualified non-party (Q) committees are separate segregated funds and nonconnected committees that qualify as multi-candidate committees. They qualify as multi-candidate committees if all of the following conditions are met.  The committee must be registered for 6 months, have received contributions from more than 50 people, and has made contributions to at least 5 federal candidates.  A qualified committee may contribute up to $5,000 per candidate per election.
+
+Senate (S)
+
+Non-Qualified Party (X)
+
+Qualified Party Committee (Y)
+
+National Party Organization (Non-Federal Account) (Z) are committees established by national party organizations to raise funds outside the limits and prohibitions of the Federal Election Campaign Act. These funds can be used in nonfederal elections and may be used as a portion of the cost of administrative, generic, and fundraising expenses for the party.
+
+---------
+Committee Party
+Columns 233-235
+String
+
+The reported party with which the committee is associated.
+
+---------
+Filing Frequency
+Columns 236-236
+String
+
+How often a committee files with the Federal Election Commission.
+
+A	ADMINISTRATIVELY TERMINATED
+D	DEBT
+M	MONTHLY FILER
+Q	QUARTERLY FILER
+T	TERMINATED
+W	WAIVED
+
+---------
+Interest Group Category
+Columns 237-237
+String
+
+C	CORPORATION
+L	LABOR ORGANIZATION
+M	MEMBERSHIP ORGANIZATION
+T	TRADE ASSOCIATION
+V	COOPERATIVE
+W	CORPORATION WITHOUT CAPITAL STOCK
+
+Interest Group Category only applies to committee types N and Q.  This is a categorization of the sponsoring (or connected) organization for
+the committee and is provided on the statement of organization.  
+
+---------
+Connected Organization's Name
+Columns 238-275
+String
+
+The reported name of the committee's sponsor.
+
+---------
+Candidate Identification
+Columns 276-284
+String
+
+When a committee has a committee type designation of H, S, or P the identification number of the candidate will be entered in this field.
+
+
+
+
