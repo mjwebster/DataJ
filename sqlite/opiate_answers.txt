@@ -1,0 +1,118 @@
+1) How many of the people who died were women?
+940
+
+select gender
+from opiate_deaths
+where gender='f'
+
+
+2) How many people died in Hennepin county?
+
+907
+
+SELECT * FROM opiate_deaths where DEATHCOUNTY='HENNEPIN'
+
+
+
+3) How many records have the word "fentanyl" somewhere in the injury_desc field? 
+
+181
+
+SELECT * FROM opiate_deaths where INJURYDESC LIKE '%FENTANYL%'
+
+
+
+4) How many deaths were ruled a suicide?
+200
+
+SELECT * FROM opiate_deaths where MANNERDEATH='SUICIDE'
+
+
+5) How many of the people who died lived in Coon Rapids?
+
+37
+
+SELECT * FROM opiate_deaths where RESCITY='COON RAPIDS'
+
+
+
+6) How many people died on 5/2/2011?
+
+5
+
+SELECT * FROM opiate_deaths where DEATHDATE='5/2/2011'
+
+
+
+7) How many people under age 18 died?
+
+20
+
+SELECT * FROM opiate_deaths where AGEYEARS<18
+
+
+8) How many people over age 55 died?
+
+371
+
+SELECT * FROM opiate_deaths where AGEYEARS>55
+
+
+
+
+9) How many people between age 20 and 25 died (including those two ages)?
+
+282
+SELECT * FROM opiate_deaths where AGEYEARS>=20 AND AGEYEARS<=25
+
+
+
+
+10) How many people were either a student or disabled (hint: occupation)?
+
+261
+
+SELECT * FROM opiate_deaths where OCCUPATION LIKE '%STUDENT%' OR OCCUPATION LIKE '%DISABLED%'
+
+
+
+11) How many people lived in city of Anoka, but died in Minneapolis?
+
+1
+
+SELECT * FROM opiate_deaths where RESCITY='ANOKA' AND DEATHCITY='MINNEAPOLIS'
+
+
+
+12) Find all the people who lived in the city of Anoka and structure your query in a way to easily find the oldest. Who was the oldest person?
+ZIEGLER, AGE 72
+
+SELECT * FROM opiate_deaths where RESCITY='ANOKA' 
+ORDER BY AGEYEARS DESC
+
+
+
+13) Find all the people with lastname of JOHNSON who were women. Who was the oldest?
+CHERYL JOHNSON, AGE 62
+
+SELECT * FROM opiate_deaths 
+WHERE LASTNAME='JOHNSON' AND GENDER='F'
+ORDER BY AGEYEARS DESC
+
+
+
+14) Of the people who were Hispanic, how many lived in Minneapolis?
+
+4
+
+SELECT * FROM opiate_deaths 
+WHERE RESCITY='MINNEAPOLIS' AND HISPANICETHNICITY='HISPANIC'
+
+
+15) How many people were not white?
+
+477
+
+SELECT * FROM opiate_deaths 
+WHERE RACE<>'WHITE'
+
