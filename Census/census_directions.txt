@@ -12,27 +12,23 @@ Use VLOOKUP to merge the two files (joining on the first column); bring the ethn
 Save this as a new Excel file
 
 Create the diversity index
---Create a new total population field (excluding the "other race" category
---generate new columns with percentage of total for each racial group (white, black, asian,etc) except the other race and 2 or more races
+--Create a  total population field (In the race data, exclude the "other race" category; in the Ethnicity data, combine Hispanic and Non-Hispanic)
+--generate new columns with percentage of total for each racial group (white, black, asian,etc) except the other race and 2 or more races; also calculate percentage total for Hispanic and Non-Hispanic, but be sure to use the other total population as the denominator
 --generate new columns where you will square the percentage (that you just created). To square -- celladdress^2
---add the squared percentages together in a new column (this will be your total)
---repeat all these steps for ethnicity, except for this one use the total population (Hispanic plus non-Hispanic) for the denominator in your percentage calculations.
-
-When you have totals for both race and ethnicity, then you'll do a formula that multiples the two totals, subtract that from 1, and then multiply the result by 100.
-You can do it all in one formula like this (you'll need to change x2 and y2 to the correct cell address
+--add the squared percentages for the race fields together in a new column (this will be your race total)
+--add the squared percentages for the ethnicity fields together in a new column (this will be your ethnicity total)
+--Take that race total and ethnicity total and you'll do the formula below that multiples the two totals, subtract that from 1, and then multiply the result by 100.
+You can do it all in one formula like this (you'll need to change x2 and y2 to the correct cell address)
 
 =(1-(x2*y2))*100
 
-
-
-
+Homework for  Tuesday:
 Import the 1990 race & ethnicity table into Excel (be sure to preserve leading zeros in "statea" and "countya" fields
 --create a join column by combining the state fips code ("statea") and the county fips code ("countya")
-
 --Create a diversity index here (like in the directions above, except there won't be a "2 or more races" column to worry about)
 
 
-
+For In Class:
 Final step:
 We'll create a new sheet that pulls the 1990 diversity index to match with the 2015 county names and 2015 diversity index 
 (It's possible that there are counties that didn't exist in 1990 or had different name or something,
