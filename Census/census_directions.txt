@@ -16,7 +16,7 @@ Create the diversity index
 --generate new columns with percentage of total for each racial group (white, black, asian,etc) except the other race and 2 or more races
 --generate new columns where you will square the percentage (that you just created). To square -- celladdress^2
 --add the squared percentages together in a new column (this will be your total)
---repeat all these steps for ethnicity
+--repeat all these steps for ethnicity, except for this one use the total population (Hispanic plus non-Hispanic) for the denominator in your percentage calculations.
 
 When you have totals for both race and ethnicity, then you'll do a formula that multiples the two totals, subtract that from 1, and then multiply the result by 100.
 You can do it all in one formula like this (you'll need to change x2 and y2 to the correct cell address
