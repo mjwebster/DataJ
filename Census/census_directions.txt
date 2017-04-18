@@ -24,8 +24,8 @@ You can do it all in one formula like this (you'll need to change x2 and y2 to t
 
 Homework for  Tuesday:
 Import the 1990 race & ethnicity table into Excel (be sure to preserve leading zeros in "statea" and "countya" fields
---create a join column by combining the state fips code ("statea") and the county fips code ("countya")
---Create a diversity index here (like in the directions above, except there won't be a "2 or more races" column to worry about)
+--create a join column by combining the state fips code ("statea") and the county fips code ("countya"). You can combine two columns in Excel by "concatenating" them together using the ampersand. In a new column, type a formula like this, but using the exact cell address where your statea and countya data reside: =celladdress1&celladdress2
+--Create a diversity index  (like in the directions above, except there won't be a "2 or more races" column to worry about)
 
 
 For In Class:
