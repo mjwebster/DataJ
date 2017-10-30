@@ -33,7 +33,7 @@
 		<p>First, a few things about spreadsheets: Each sheet is made up of columns (labeled by letters) and rows (labeled by numbers). Each cell is identified by a cell address, consisting of the letter and number. For example, in this picture, the value Atlanta Braves is stored in cell A3. Note that when the cursor is on a cell, the cell is outlined in black. Note the small black square in the corner -- we'll be using that in a couple minutes. Also note that the letter and number are highlighted in grey and the cell address is displayed in the upper left corner of the sheet. If you've ever played the board game, Battleship, you'll find this similar.</p>
 		<div><img src="https://user-images.githubusercontent.com/4182043/32186288-b62e23a0-bd6f-11e7-83d9-ee83d9671f60.gif" class="img-responsive" alt="A look around Excel"></div>
 		<p>You'll also notice that your cursor will change as you move it around. Most of the time, it will look like a big fat white plus sign. But if you hover over the top of the black box (around Atlanta Braves) you will get a tool that allows you to move that cell and if you hover in the lower right corner - where that little black square is - you will get a thin black cross. That thin black cross is used for copying formulas down or across the page. We'll be using that a lot.</p>
-		<div><img src="https://user-images.githubusercontent.com/4182043/32188238-415dfd60-bd75-11e7-96a3-700386691b4d.gif" class="img-responsive" alt="A look around Excel"></div>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32188238-415dfd60-bd75-11e7-96a3-700386691b4d.gif" class="img-responsive" alt="Cursors"></div>
 		<h3>Key terms</h3>
 		<ul>
 		<li><b>Columns</b> contain "categories" of data and are vertical</li>
@@ -43,14 +43,47 @@
 		<li>The <b>formula bar</b>, which is located in the menu bar, is similar to the address bar in a web browser. Here you can view and edit formulas that you've created in the worksheet.</li>
 		</ul>
 		<h3>Cursors</h3>
-		<div><img src="https://user-images.githubusercontent.com/4182043/32188569-2f5a72e6-bd76-11e7-8803-38ab6c047761.png" class="img-responsive" alt="A look around Excel"></div>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32188569-2f5a72e6-bd76-11e7-8803-38ab6c047761.png" class="img-responsive" alt="Cursors list"></div>
 		<h3>Prepping your data</h3>
 		<ul>
 		<li>Make sure the columns are labeled and that the column label only takes up one row.</li>
 		<li>Any notes or titles --or anything else that might be above or below the data table -- should be separated from the data by a blank row (or more). Your data won't sort correctly if other information butts up against the table.</li>
 		<li>No empty rows or empty columns within the area where the data is located.</li>
 		</ul>
-		<div><img src="https://user-images.githubusercontent.com/4182043/32189314-69ed15c4-bd78-11e7-86e8-08028f851dbd.gif" class="img-responsive" alt="A look around Excel"></div>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32189314-69ed15c4-bd78-11e7-86e8-08028f851dbd.gif" class="img-responsive" alt="Prepping data"></div>
+		<h3>Sorting</h3>
+		<p>There are several ways to change the order that the rows appear in. I'm purposely NOT going to show you the shortcut methods because they don't give you the full suite of options for sorting.</p>
+		<p>First thing to note: Sorting won't work correctly if you don't have your data set up properly, following the guidelines I noted in the previous section.</p>
+		<p>Second: Put your cursor somewhere in the chunk of data. Doesn't matter exactly where. Key thing is you don't want it parked out in the whitespace.</p>
+		<p>Third: Go to the data menu. Click the big button labeled "Sort".  This will bring up a dialogue box. Look to see if the checkbox "My data has headers" is checked. If it's not, this is usually a sign that your data is not set up properly. Once that's checked, then the pull-down menu on the left will list the column labels in your data. Select the column label you want to sort on -- in the example, I've chosen Payroll2016 -- and then you can select the order, either Smallest to Largest (ascending) or Largest to smallest (descending).</p>
+		<p>Note that if you choose the TEAM field, those options will be A to Z and Z to A. That's because TEAM consists of "characters". The Payroll2016 field consists of numbers only (numeric field).</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32190431-db989bfa-bd7b-11e7-95b4-be95187e2637.gif" class="img-responsive" alt="Sorting"></div>
+		<h3>Prep for analysis</h3>
+		<p>The first thing to do is to make sure you understand what you're looking at.</p>
+		<p>What does each row represent? In this case, it's one row for each team, showing the total they spent on payroll in various years.</p>
+		<p>Are there any columns you don't understand? This data is pretty straightforward, showing that we have payroll totals for various years (but note that the years are not consecutive). Sometimes, though, you'll get data with a field that has codes in it or something that you don't understand. Be sure to go back to the place you got the data and get your questions answered.</p>
+		<p>Do you have all the data you need? In this case, the obvious questions might be to ensure you have all the teams you want and that you have payroll totals for all the years you want.</p>
+		<p>Is there anything missing? For example, I might want to add a column that indicates which league (AL or NL) each team plays in.</p>
+		<p>Then you want to come up with the questions you want to ask. We're going into an "interview," so it's a good idea to have a list of questions at the ready. But just like an interview with a human, it's okay to veer off your list at some point later. It helps, though, to have something to start with.</p>
+		<p>If you're having a hard time coming up with questions, start thinking of the 5 W's -- who, what, when, where, why. Data is really bad at answering the "why" questions, but the others are easier. With this data, our "who" are the teams. We've also got "when" since we have different points in time. The more detailed your data is, the more questions you will be able to ask. This dataset is very limited.</p>
+		<h3>How do I.....?</h3>
+		<p>There are two primary ways to do analysis in Excel. One is by using formulas or functions, creating new columns or rows to store the results. The other is to use PivotTables to generate summaries, either counting rows or summing values together. We'll save PivotTables for the next tutorial (however, I'll note here that it's my favorite tool in Excel).</p>
+		<p>There are oodles of formulas and functions baked into Excel that help you do math, re-arrange your data, clean your data, or even generate new columns to add to your data table. I'm going to focus on a few mathematical functions that are very commonly used -- percent change, percent of total, average and median.</p>
+		<h4>How formulas and functions work</h4>
+		<p>A <a href="https://support.office.com/en-us/article/Overview-of-formulas-in-Excel-ecfdc708-9162-49e8-b993-c311f47ca173">formula</a> performs calculations or other actions on the data. It always starts with an equal sign (=), but after that there's a wide array of things you can do, including math calculations and using <a href="https://support.office.com/en-us/article/Excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb?ui=en-US&rs=en-US&ad=US">built-in Excel functions.</a> You type a formula either in a blank column to the right of your data, or in a blank row below your data. And you refer to the cell addresses, instead of the actual values. This allows you to type a math formula one time, then copy the formula and apply it to all the rows or columns of data. As a result, you can do something like calculate percent change for thousands of rows of data in a few seconds.  Can you imagine trying to do that on a calculator?</p>
+		<p>In the video below, I'm going to create two new columns on my table where I'm going to use math formulas to calculate the dollar difference for each department's annual budget figures and then express those differences as percent change. I'll also add some new rows below my data, but I'm keeping it separate with a blank row because these are totals that I don't want mixed into my data table the next time I use sort. I'll cover specifically how to do these formulas and functions later in the tutorial.</p>
+		<p>Note that I start each with an equal sign, then when I'm finished typing I hit enter. Now my cursor is on the row below. So I need to put my cursor back on the cell where I did the formula, and get the "black thin cross" cursor to copy down my formula to the other rows (or in a couple cases, I copy across columns). You'll notice that you can either drag the thin cross, or you can double-click on your mouse and it will go down until it hits a blank cell in the column immediately to the left.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32195406-28d75f96-bd8b-11e7-87dc-f09e596208e0.gif" class="img-responsive" alt="Formula basics"></div>
+	
+		<h4>Percent change</h4>
+		<p>One of the questions you likely came up with for our data is: Which team had the greatest increase (or decrease) in total payroll? So then the next step is to figure out which "tool" in Excel will get us that answer. Here's where you actually need to know a little bit about best practices in math and statistics first.</p>
+		<p>Let's focus in on two teams, the New York Yankees and the Oakland Athletics. The Yankees paid out more than $222 million in 2016; the Athletics paid out just over $86 million. If we calculate a simple difference between the 2016 and 2011, both teams show that they spent about $20 million more in 2016 than they did in 2011. However, think about these like you would a city budget. A $20 million increase is a drop in the bucket for a city that routinely spends $200 million, while it's a huge increase for the city that spends $60 or $80 million, right?</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32194510-97775670-bd88-11e7-96eb-7166e21c18f6.gif" class="img-responsive" alt="Percent change explained"></div>
+		<p>General rule of thumb is that you'll want to use percent change (rather than simple subtraction) in any situation where the things you are comparing (city budgets, county populations, city crime totals, state spending, school enrollments) have a lot of underlying variability like we have here.
+		<p>So, let's go back to our full dataset and create a new column to calculate percent change between our two most recent years. I'll add a column label in the first empty column.</p>
+		<p>The best way to remember the percent change formula is that it's NEW NUMBER minus OLD NUMBER divided by OLD NUMBER. A shorthand way to remember it is the word NO --- (N-O)/O.</p>
+		<p>This will give you a positive number if it's an increase and a negative number if it's a decrease. Note in the video that after I typed the formula, I ended up with a value expressed in dollars. So I use the format cells option to change it to percentage.</p> 
+		div><img src="https://user-images.githubusercontent.com/4182043/32194513-99c556a2-bd88-11e7-8b91-e341ffc867c1.gif" class="img-responsive" alt="Percent change"></div>
 		
 		
 		
