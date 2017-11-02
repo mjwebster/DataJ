@@ -61,7 +61,7 @@
 		<p>Of course I put in the path to my working directory. Then the big changes are to add the "FILE HANDLE DATA" line and to adjust the "DATA LIST FILE" line. Notice that the FILE HANDLE DATA line includes the length of the record (LRECL). You can find this by looking at the bottom of the field list and seeing what the last fixed-width position is. Other than that number, the only other things you need to customize are within quotes.</p>
 		<p>Here's the code I used for loading the data, using asciiSetupReader.</p>
 		
-		<code>#set working directory
+		<pre><code>#set working directory
 		setwd("W:\\Xennials")
 
 		#assign name of the data file to variable data_name
@@ -73,7 +73,7 @@
 		#load data and name it (I'm naming mine "xen2010")
 		#the optional parameter, value_label_fix, tells it to replace coded values with their descriptions
 		#optional paramter, real_names=TRUE, applies 
-		xen2010 <- asciiSetupReader::spss_ascii_reader(data_name, sps_name, value_label_fix = TRUE, real_names=TRUE)</code>
+		xen2010 <- asciiSetupReader::spss_ascii_reader(data_name, sps_name, value_label_fix = TRUE, real_names=TRUE)</code></pre>
 		
 		
 		<p>I also found that I needed to convert the person_weight field to numeric and quite a few of the other fields I wanted to use for analysis, such as educational attainment or marital status, were stored as factors. I had to convert those before I could recode them or use them in a summary query.</p>
