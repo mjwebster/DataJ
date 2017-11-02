@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Data journalism training: Using R</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Data Journalism:<br> Using R</h1>
+		  <h2><a href="https://twitter.com/MaryJoWebster">By MaryJo Webster</a></h2>
+        </header>
+        <hr>
+
+        <section id="main_content">
+		<p>I'm just getting started learning R, so I'm going to start collecting useful stuff here. It will be a work in progress. I welcome any suggestions you have for other sites I should check out.</p>
+		<p>To get started you need to <a href="https://www.r-project.org/">download R.</a> And then I <strong>highly</strong> recommend using <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> as an interface, so you'll need to download that, as well.</li>
+		
+		
+		<h2>Useful beginner training materials</h2>
+		<ul>
+		<li><a href="https://www.edx.org/course/introduction-r-data-science-microsoft-dat204x-6">Microsoft edX- Introduction to R for Data Science</a> I found this free course useful for the very basics of R, especially in getting a handle on terminology and syntax.</li>
+		<li><a href="https://paldhous.github.io/wcsj/2017/">Peter Aldous' Data Analysis with R training materials</a>. This site really opened the door for me. It focuses on the SQL-like capabilities of the dplyr package and using ggplot2 for visualizations and uses real journalism examples.</li>
+		<li><a href="https://github.com/dhmontgomery/r-data-for-beginners/blob/master/r_for_beginners.md">David Montgomery's R for Beginners</a>. This was a good second tutorial to hit. Also focuses on the SQL-like capaibilities and visualizations with real journalism example, but goes a little deeper than Aldous' tutorial.</li>
+		<li><a href="https://www.computerworld.com/article/2497143/business-intelligence/business-intelligence-beginner-s-guide-to-r-introduction.html">Beginner's guide to R, by Sharon Machlis</a>. This covers a lot of basic ground and provides a ton of useful links</li>
+		<li><a href="http://r4ds.had.co.nz/">E-book: R for Data Science by Garrett Grolemund and Hadley Wickham.</a></li>
+		
+		
+		</ul>
+		<h2>Useful R packages & how-to's</h2>
+		<p>Most of the great capabilities that you can unleash with R come via packages (like libraries) that you need to install separately. There are thousands of packages! Here are ones I've found to be must-have's.</p>
+		<ul>
+		<li><a href="https://www.tidyverse.org/packages/">Tidyverse- a collection of packages</a>. This gives you the SQL-like capabilities and tools for making visualizations.</li>
+		<li><a href="http://www.ggplot2-exts.org/gallery/">ggplot2 gallery of extensions</a>. ggplot2 comes with tidyverse, but here you can find links to a ton of extensions, including gganimate for animating your graphics.</li>
+		<li><a href="http://www.datacarpentry.org/dc_zurich/R-ecology/04-dplyr.html">Aggregating and analyzing data with dplyr</a>. Useful guide to using dplyr package (which comes with tidyverse)</li>
+		<li><a href="http://rprogramming.net/recode-data-in-r/">How to recode data in R</a></li>
+		<li><a href="https://d4tagirl.com/2017/05/how-to-plot-animated-maps-with-gganimate">How to plot animated maps with gganimate</a> This code can be applied to other graphic types, as well.</li>
+		<li><a href="http://www.r-graph-gallery.com/">The R Graph Gallery</a> Includes examples of code for how to make a variety of graphics with ggplot2</li>
+		<li><a href="http://www.cookbook-r.com/">Cookbook for R</a></li>
+		<li><a href="https://cran.r-project.org/web/packages/asciiSetupReader/vignettes/Introduction_to_asciiReader.html">asciiReader package</a> This is a life-saver if you're working with IPUMS data. More about this below.</li>
+		</ul>
+		<h2>Working with IPUMS data in R</h2>
+		<p>I made the leap to R because my company was reluctant to pay the SPSS bill anymore. I frequently used SPSS to analyze <a href="https://usa.ipums.org/usa/">IPUMS data</a> or to run regression analyses on school test scores. I had an immediate need (for a story) to figure out the IPUMS part first. The big headache is that the data files IPUMS supplies are heavily coded. If you're using SPSS or SAS, it's easy to use their command files to apply friendly column labels and translate the code values to descriptions right in the software. But at first it didn't seem like I would be able to do that in R.</p>
+		<p>But after poking around I found the <a href="https://cran.r-project.org/web/packages/asciiSetupReader/vignettes/Introduction_to_asciiReader.html">asciiReader package.</a> In short, the package was designed for this exact scenario, where you have a text file with codes and a command file with all the translations.</p>
+		<p>One thing that the package directions don't tell you is that you'll need to open the .sps file in a text editor and do a little adjustment to the top three lines.</p>
+		</p>Here's what the top of the .sps file looks like when you first download from IPUMS.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32340649-377c6a1a-bfc9-11e7-9e4c-09306db0c19a.PNG" class="img-responsive" alt="IPUMS command file original"></div>
+		<p>Here's what I changed it to:</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32340650-38e9f980-bfc9-11e7-8686-c6a0f812d001.PNG" class="img-responsive" alt="IPUMS command file revised"></div>
+		<p>Of course I put in the path to my working directory. Then the big changes are to add the "FILE HANDLE DATA" line and to adjust the "DATA LIST FILE" line. Notice that the FILE HANDLE DATA line includes the length of the record (LRECL). You can find this by looking at the bottom of the field list and seeing what the last fixed-width position is. Other than that number, the only other things you need to customize are within quotes.</p>
+		<p>The image below has the code I used for loading the data, using asciiSetupReader.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32341328-37289320-bfcb-11e7-8f00-6920ccc13159.PNG" class="img-responsive" alt="IPUMS command file revised"></div>
+		<p>I also found that I needed to convert the person_weight field to numeric and quite a few of the other fields I wanted to use for analysis, such as educational attainment or marital status, were stored as factors. I had to convert those before I could recode them or use them in a summary query.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/32341454-84d00a36-bfcb-11e7-9295-25e152eb13ec.PNG" class="img-responsive" alt="IPUMS command file revised"></div>
+		
+		
+		
+		
+		
+		
+		</section>
+
+        <footer>
+          DataJTraining is maintained by <a href="https://github.com/mjwebster">mjwebster</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
