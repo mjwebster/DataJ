@@ -24,7 +24,7 @@
         <hr>
 
         <section id="main_content">
-		<p>I'm just getting started learning R, so I'm going to start collecting useful stuff here. It will be a work in progress. I welcome any suggestions you have for other sites I should check out.</p>
+		<p>I'm just getting started learning R, so I'm going to start collecting useful stuff here. It will be a work in progress. I welcome any suggestions you have to either add to this site or offer up better approaches than what I'm offering here.</p>
 		<p>To get started you need to <a href="https://www.r-project.org/">download R.</a> And then I <strong>highly</strong> recommend using <a href="https://www.rstudio.com/products/rstudio/download/">RStudio</a> as an interface, so you'll need to download that, as well.</li>
 		
 		
@@ -73,7 +73,8 @@
 	#load data and name it (I'm naming mine "xen2010")
 	#the optional parameter, value_label_fix, tells it to 
 	#replace coded values with their descriptions
-	#optional paramter, real_names=TRUE, applies 
+	#optional paramter, real_names=TRUE, applies column names in
+	#cases where data has codes or numbers for column labels
 	
 	xen2010 <- asciiSetupReader::spss_ascii_reader(data_name, sps_name, 
 				value_label_fix = TRUE, real_names=TRUE)</pre>
