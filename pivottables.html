@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Data journalism training: Pivot Tables in Excel</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Data Journalism:<br> Pivot Tables</h1>
+		  <h2><a href="https://twitter.com/MaryJoWebster">By MaryJo Webster</a></h2>
+        </header>
+        <hr>
+
+        <section id="main_content">
+		<p>This tutorial uses a spreadsheet of <a href="http://mjwebster.github.io/DataJ/spreadsheets/Police_Incidents_2015.xlsx" target="_blank">Minneapolis police reports.</a></p>
+		<p>Pivot Tables, which are available in Microsoft Excel and Google Sheets, are the most powerful tool (in my opinion) you have in a spreadsheet program. It allows you to take very detailed data -- in this case, where one row represents a reported crime -- and generate the summary findings that you need for your story. This usually answers your "who, what, when, where" questions (data is really bad at answering "why", so I'm leaving that out.) and gives you the over-arching findings you're likely looking for.</p>
+		<p>For example, let's look at our sample data on reported crimes in Minneapolis. Some common questions we might have, include: Which neighborhood had the most reported crimes? What type of crime was most often reported? Which month had the most crimes?</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043820-4e741938-ce0c-11e7-9ab5-3a6cd80fd191.PNG" class="img-responsive" alt="Top few rows of the police reports data"></div>
+		<p>Because each row of our data is a single crime, we can't just sort our spreadsheet to get the answers to our questions. All of those questions require "grouping" rows together based on specific values stored in the database. This kind of summarizing is one of the most common things you'll do in analyzing data. For example, to answer our first question about how many crimes in each neighborhood, we need our answer to show each neighborhood (listed just once) and the number of crimes reported there.</p>
+		<p>I find it helps to envision your answer before trying to create it. I'd want it to look something like this:</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043821-4e8c0890-ce0c-11e7-9c4b-c66fdfbfd6fe.PNG" class="img-responsive" alt="What I'd want my answer to look like"></div>
+		<p>To get an answer like that, we'll use the Pivot Tables tool. This first video shows a very basic Pivot Table.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043823-4e9ffe40-ce0c-11e7-989b-123e38458812.gif" class="img-responsive" alt="Pivot Tables-Most crime reports by neighborhood"></div>
+		<p>Here are the steps shown in the video:</p>
+		<ul>
+		<li>Make sure your cursor is located somewhere inside your data (not out in the blank spaces). Also make sure all your columns are properly named. Without a name, the field won't be visible to the Pivot Table design tool.</li>
+		<li>Go to the Insert menu and click on the Pivot Table button (on the far left)</li>
+		<li>It will ask about the source of your data (it should guess correctly) and where you want to put the Pivot Table (default is a new worksheet). Just make sure these things are correct. </li>
+		<li>The Pivot Table designer appears on a new sheet. On the right, you'll have a list of your fields and below that four boxes where we'll do the designing.</li>
+		<li>The "rows" box is where you identify which column has the values you want to use as each row. In this case, I want one row for each neighborhood.</li>
+		<li>The "values" box is where you do the counting or summing (or other math). In this case we are simply counting rows (each row is a police report) so it doesn't really matter what column you put in here.</li>
+		<li>You can choose to count, sum, average or get minimum or maximum values (and other things) by clicking on the item you just put in the values box and choosing "Value Field Settings."</li>
+		<li>You can sort your results by putting your cursor on the first value of the column you want to sort and going to the Data menu and choose either A to Z or Z to A.</li>
+		</ul>
+		<p>Helpful hint: As you're working in your Pivot Table, it's possible the field list and the four boxes on the right might disappear. Don't worry, you didn't do anything wrong! To get them back, simply click anywhere inside the Pivot Table results.</p>
+		<h3>Filtering your data</h3>
+		<p>You can filter the data being used for the Pivot Table with the "filters" box on the designer. For example, let's say we want to find out how many burglaries were reported in each neighborhood. If you look at the original data, you'll see that the field called "Offense" has a code for burglary of a dwelling -- "BURGD". So we'll put the "offense" column in the filters box. Then a pull-down menu will appear at the top of your results, giving you the option to pick which offense(s) you want to include in your answer.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043824-4ef1252c-ce0c-11e7-80b3-2e817cab290b.gif" class="img-responsive" alt="Pivot Tables-Filtering"></div>
+		<p>Note that you can filter on multiple fields. Just put any field(s) you want in the "filters" box and it will create multiple pull-down menus above your data.</p>
+		<h3>Making a cross-tab</h3>
+		<p>A cross-tabulation is when you have two variables you want to measure against each other. One will be in the rows and the other in the columns. For example, we might want to know how many reports of each type of crime occurred each month (our data covers a 3-month period).</p>
+		<p>First, we need to make a little detour. Our data has a field indicating the date the crime was reported. But we need a column that only has the month. So we can add a new column to our data and use the MONTH() function to strip the month out of the date. (see the video)</p>
+		<p>Then we'll launch a new Pivot Table. This time the offense description will be in the rows; our new month field will go in the "columns" box ; and we'll put a count in the values box (like we did last time)</p>
+		<p>Note: After creating the new column, it might not show up in the list of fields for the Pivot Table. If not, go to the Analyze menu at top of screen and choose "Refresh." (I've shown this in the video, too). If you add a new column on the far right, you might need to choose "Change data source" and make sure it's grabbing the new column, as well.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043825-4f08fcf6-ce0c-11e7-8eb7-c47620340051.gif" class="img-responsive" alt="Pivot Tables-Making a cross-tab"></div>
+		<h3>Displaying percentages</h3>
+		<p>So far, we've just been counting the records and displaying raw numbers. But it is possible to display percentages. In the example we just did, we can tell Excel to display the "row percentage". In other words, it will show us what percentage of robberies, for example, occurred in each month. Or we could do a "column percentage" -- which in this case would give us, for example, the percentage of all the crimes in June that were robberies. In the video, I'm also going to filter the rows to just a couple categories so it's easier for you to see what it's doing on the row percentage. I'll have to turn that off to get accurate column percentages, though.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043816-4d9dc1c6-ce0c-11e7-9909-156c06083acf.gif" class="img-responsive" alt="Pivot Tables-Displaying percentages"></div>
+		<p>Let's switch to another dataset to show you some other features. For this part, we'll use a spreadsheet of <a href="http://mjwebster.github.io/DataJ/spreadsheets/MLBpayrolls.xls" target="_blank">baseball salaries and payrolls</a> that we also used in the <a href="http://mjwebster.github.io/DataJ/BeginnerExcel.html">beginner excel tutorial.</a>  We'll use the worksheet called "Twins-Brewers" that has the player salaries for the Twins and the Brewers from 2011.</p>
+		<p>We'll start by running a couple simple Pivot Tables -- the total each team paid out, and the average paid out by position. (Note: the fact that we only have 2 teams in here makes this kind of useless. But imagine doing this with all the players, from all the teams.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043817-4db2ea4c-ce0c-11e7-99f0-5bcab54e6204.gif" class="img-responsive" alt="Pivot Tables-Baseball salaries by team and position"></div>
+		<h3>Adding a second value</h3>
+		<p>We might want to know how many players this is counting up. Remember that each row of our data represents one player. So we can add a second math column (in the "values" box) and tell it to count. It doesn't matter which field you pick. To make it simple, I'll just pick "player." Note that the order the items appear in the values box dictates which one comes first in your answer. You can drag and drop an item to flip spots.</p>
+		<p>The cross-tab feature can also come in handy here, if we put "Team" in the columns box we can see average salary each team pays, by position. However, since we still had the number of players in there, we end up with this crazy mess. So I took out the number of players. Now we have the average pay by position for each team (note that the overall average is in the "grand total" column now.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043818-4dc34ab8-ce0c-11e7-95e2-9d79f4ab6cdf.gif" class="img-responsive" alt="Pivot Tables-Count players and average by team"></div>
+		<h3>Adding multiple items in rows</h3>
+		<p>What happens if you put two items in the "rows" box? I often find that this doesn't help me much. In this example, we'll move the team value out of the columns box and add it to rows. Note that it automatically falls in the second position -- so the answer it gives displays the position first, then the teams. If you flip them around in the rows box, you get a different view.</p>
+		<div><img src="https://user-images.githubusercontent.com/4182043/33043819-4e1f036c-ce0c-11e7-825c-576fe1d1daa8.gif" class="img-responsive" alt="Pivot Tables-Multiple values in rows"></div>
+		<h3>Running formulas</h3>
+		<p>There may be times when you want to run some calculations on the results of your Pivot Table. I find that formulas get a little hinky when you try to set them up against the Pivot Table results. So I tend to copy and paste the results (except the headers!) to a new worksheet. Then add the headers and do the math there. Beware: If you copy the headers, it will just copy the whole Pivot Table -- code and all.</p>
+		<h3>Other resources</h3>
+		<ul>
+		<li><a href="https://www.gcflearnfree.org/excel2013/pivottables/1/">Pivot Table video tutorials (Learnfree.org)</a></li>
+		<li><a href="https://chandoo.org/wp/excel-pivot-tables/">Guide to Pivot Tables (Chandoo)</a></li>
+		</ul>
+				
+		</section>
+
+        <footer>
+          DataJTraining is maintained by <a href="https://github.com/mjwebster">mjwebster</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
