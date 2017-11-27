@@ -70,10 +70,10 @@
 			user=rstudioapi:askForPassword("Database user"),<br>
 			password=rstudioapi::askForPassword("Database password"))<br>
 			</p>
-		<p>Then you can have it load a list of the tables on the server using:  dbListTables(myconnection)</p>
-		<p>Or have it list the fields for a particular table on the server:  dbListFields(myconnection, 'tablename')</p>
-		<p>You can run a query on the server like this: mydata <- dbSendQuery(myconnection, "select * from tablename where gender='F'")</p>
-		<p>Then you can turn that into a dataframe, if you want:  mydf <- fetch(mydata, n=-1)</p>
+		<p>Then you can have it load a list of the tables on the server using:<br>  dbListTables(myconnection)</p>
+		<p>Or have it list the fields for a particular table on the server:<br>  dbListFields(myconnection, 'tablename')</p>
+		<p>You can run a query on the server like this:<br> mydata <- dbSendQuery(myconnection, "select * from tablename where gender='F'")</p>
+		<p>Then you can turn that into a dataframe, if you want:<br>  mydf <- fetch(mydata, n=-1)</p>
 		<p>The "-1" in that last piece of code tells it to return all the records. You could change that if you, for example, only want the first 100 records or something like that</p>
 		<p>Once you have the data in a data frame, then you can use dplyr or whatever other code to analyze your data frame.</p>
 		<h2>Appending files together</h2>
@@ -83,7 +83,11 @@
 		<p>table1 <- read_csv("table1.csv")<br>
 		table2<- read_csv("table2.csv")<br>
 		merged <- rbind(table1, table2)<br></p>
-		<p>Interesting side note.....It's also possible to tell it to filter the records from each of the csv's and only merge together certain records. Here's <a href="https://mjwebster.github.io/Rprojects/jobs_notebook.nb.html">the code</a> I used to do that on some Bureau of Labor Statistics data, pulling out only records for food establishments.</p>
+		<p>Interesting side note.....It's also possible to tell it to filter the records from each of the csv's and only merge together certain rows. Here's <a href="https://mjwebster.github.io/Rprojects/jobs_notebook.nb.html">the code</a> I used to do that on some Bureau of Labor Statistics data, pulling out only records for food establishments. (I used rbind for this since it was before I discovered bulk_csv)</p>
+		<h2>Joining data frames</h2>
+		<p>Another common issue for us data journalists is having to join two datasets together on one or more common fields/columns. Just like SQL, you can do an inner_join (return only matching records) or left_join (return all records from the first table listed and only those that match from the second table). Here's the <a href="https://www.rdocumentation.org/packages/dplyr/versions/0.7.3/topics/join"> official documentation on joining.</a> In the code below you can replace the two instances of "fieldname" with the correct names of columns in your two tables that match. And replace "table1" and "table2" with the names of the two data frames you are joining. In my example, "newtable" is the name of the new data frame I'm creating from this join.</p>
+		<p>newtable <- inner_join(table1, table2, by=c("fieldname"="fieldname"))</p>
+		
 
 
 	
