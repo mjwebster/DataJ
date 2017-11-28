@@ -59,13 +59,13 @@
 		<h2>dplyr</h2>
 		<p>My favorite package so far is dplyr, which comes with Tidyverse. It works so much like SQL -- which I've known for a long time -- so it's been very easy to pick up. Interestingly, it seems like dplyr is more flexible and lightweight than SQL. It's possible to run a query that filters and summarizes and arranges your data, then add a new column calculating a rank or a percentage all with just five or six lines of simple code. Doing that in SQL is mind-numbing. I picked up most of dplyr through some of the tutorials linked above, but I also laid out some cash for this <a href="https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial">DataCamp class</a>, which I found to be really helpful.</p>
 		<h2>Pull data from a server</h2>
-		<p>Since I store the bulk of my data on a mySQL server (on Amazon), it's really great to be able to connect R to the server. There are a few ways to do this, however it seems the route most people use is the <a href="https://cran.r-project.org/web/packages/RMySQL/index.html">RMySQL package.</a>  This one caused me a few headaches because I had a hard time figuring out a good way to connect without storing my username and password in the code. Supposedly you can use a "my.cnf" file, but I couldn't get that to work -- even after extensive googling on the problem. Ultimately, I settled on using an RStudio option to have it prompt you for the username and password.</p>
-		<p>Here's what that code looks like. Note I'm not displaying the host name (server connection) and the dbname (name of the database within the server):</p>
+		<p>Since I store the bulk of my data on a mySQL server (on Amazon), it's really great to be able to connect R to the server. There are a few ways to do this, however it seems the route most people use is the <a href="https://cran.r-project.org/web/packages/RMySQL/index.html">RMySQL package.</a>  This one caused me a few headaches because I had a hard time figuring out a good way to connect without storing my username and password in the code. Supposedly you can use a "my.cnf" file, but I couldn't get that to work -- even after extensive googling on the problem. Ultimately, I settled on using an RStudio option to have it prompt you for the username and password and the host connection.</p>
+		<p>Here's what that code looks like. Note, I'm not displaying dbname here (name of the database within the server):</p>
 		<p>
 		install.packages("RMySQL")<br>
 		library(RMySQL)<br>
 		myconnection <- dbConnect(RMySQL ::MySQL(),<br>
-			host="******",<br>
+			host=rstudioapi:askForPassword("host"),<br>
 			dbname="******",<br>
 			user=rstudioapi:askForPassword("Database user"),<br>
 			password=rstudioapi::askForPassword("Database password"))<br>
@@ -85,7 +85,7 @@
 		merged <- rbind(table1, table2)<br></p>
 		<p>Interesting side note.....It's also possible to tell it to filter the records from each of the csv's and only merge together certain rows. Here's <a href="https://mjwebster.github.io/Rprojects/jobs_notebook.nb.html">the code</a> I used to do that on some Bureau of Labor Statistics data, pulling out only records for food establishments. (I used rbind for this since it was before I discovered bulk_csv)</p>
 		<h2>Joining data frames</h2>
-		<p>Another common issue for us data journalists is having to join two datasets together on one or more common fields/columns. Just like SQL, you can do an inner_join (return only matching records) or left_join (return all records from the first table listed and only those that match from the second table). Here's the <a href="https://www.rdocumentation.org/packages/dplyr/versions/0.7.3/topics/join"> official documentation on joining.</a> In the code below you can replace the two instances of "fieldname" with the correct names of columns in your two tables that match. And replace "table1" and "table2" with the names of the two data frames you are joining. In my example, "newtable" is the name of the new data frame I'm creating from this join.</p>
+		<p>Another common issue for us data journalists is having to join two datasets together on one or more common fields/columns. Just like SQL, you can do an inner_join (return only matching records) or left_join (return all records from the first table listed and only those that match from the second table) using the dplyr package. Here's the <a href="https://www.rdocumentation.org/packages/dplyr/versions/0.7.3/topics/join"> official documentation on joining.</a> In the code below you can replace the two instances of "fieldname" with the correct names of columns in your two tables that match. And replace "table1" and "table2" with the names of the two data frames you are joining. In my example, "newtable" is the name of the new data frame I'm creating from this join.</p>
 		<p>newtable <- inner_join(table1, table2, by=c("fieldname"="fieldname"))</p>
 		
 
