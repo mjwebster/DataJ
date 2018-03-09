@@ -39,8 +39,62 @@
 		<h2>IF to copy down</h2>
 		<p>=IF(b2= "", a2,c2)</p>
 		
+		<h2>Basic Nested IF statements - school ID numbers</h2>
+		<p>How LEN function works</p>
+		<p>=len(c4)</p>
+		<br>
+		<p>How to combine things</p>
+		<p>="0"&c4</p>
+		<br>
+		<p>Formula for District Type</p>
+		<p>=if(LEN(c4)=1, "0"&c4, c4))</p>
+		<br>
+		<p>This next formula for the district ID-- we'll start small:</p>
+		<p>=if(len(d4)=1, “000”&d4,  if(len(d4)=2, “00”&d4, "not done"))</p>
+		<br>
+		<p>full formula:</p>
+		<p>=if(len(d4)=1, “000”&d4,  if(len(d4)=2, “00”&d4, if(len(d4)=3, “0”&d4, d4)))</p>
+
+		<h2>Use IF statements to restructure data</h2>
+		<p>Step 1: Create 4 new fields (I put mine on the left side of the data) to hold our identifying information – city/county, type of jurisdiction, ID number, and population. </p>
+		<p>Step 2: IF functions need a pattern in order to work. The pattern we have is that the row marked as “O” is always the first record for each jurisdiction. So we can essentially use this to tell Excel that it’s time to switch to a new jurisdiction. And if the IF statement is on a row that doesn’t have an “O” that means it’s still on the same jurisdiction it was on in the previous row (with exception of those blank rows, but we don’t care about those anyway)</p>
+		<p> Here’s how we’ll set up the first IF statement to populate the new County/City column:</p>
+		<p>=IF(f9= “O”, E9, A8)</p>
+		<br>
+		<p>New Type column:</p>
+		<p>=IF(f9="O", e10, b8)</p>
+		<br>
+		<p>New ID number column:</p>
+		<p>=IF(f9="O", e11, c8)</p>
+		<p>New population number:</p>
+		<p><p>=IF(f9="O", e12, d8)</p>
+		
+		<h2>VLOOKUP</H2>
+		<p>Structure of VLOOKUP</p>
+		<p>VLOOKUP(cell, range of lookup table, column number, range_lookup)</p>
+		<br>
+		<p>Name your lookup: You can simplify this formula by naming your lookup table. Highlight the cells in your lookup table, in this case A3 to B89. Go to the Insert Menu and choose Name, then choose Define. Then type in a name (all one word). For this example, let’s say I called it “FIPSlkup”.</p>
+
+		<p>The cell is the first cell in your data table. In this case it would be the cell containing the first FIPS number I want to look up.</p> 
+		<p>Range of lookup table is the name of your lookup. Alternatively if you don't want to name your lookup, you just put in the range, like this: Lookup2!$A$3:$B$89.  “Lookup2!” is how we refer to the other worksheet, then you need to anchor ($) the starting cell (A3) and ending cell (B89).</p>
+		<p>The column number refers to the column number of your lookup table that you want to return in your data. In this case, I want column 2, which contains the name of the county.</p>
+		<p>For range_lookup you either put TRUE or FALSE. True will first search for an exact match, but then look for the largest value that is less than your data value. FALSE will only look for an exact match. In this case we want to use FALSE. You’ll see below when you would want to use True.</p>
+		<p>So here is our final formula:</p>
+		<p>=VLOOKUP(B3, FIPSlkup, 2, FALSE)</p>
+		<br>
+		<h2>String functions</h2>
+		<p>LEFT(celladdress, number of bytes to take)</p>
+		<p>MID(celladdress, byte number to start at, number of bytes to take)</p>
+		<p>SEARCH(“character we want to find”, celladdress)</p>
+		<p>RIGHT(celladdress, number of bytes to take)</p>
+		<br>
+		<p>Grab last name:</p>
+		<p>=LEFT(A2, SEARCH(",", A2)-1)</p>
+		<p>grab rest of name:</p>
+		<p>=mid(b5, search(“,”,b5)+1, 100)</p>
 		
 
+	
 		
 		
 		
