@@ -82,6 +82,9 @@
 		<p>So here is our final formula:</p>
 		<p>=VLOOKUP(B3, FIPSlkup, 2, FALSE)</p>
 		<br>
+		<p>VLOOKUP for inexact match</p>
+		<p>=vlookup(i2, $m$4:$n$7, 2, true)
+		<br>
 		<h2>String functions</h2>
 		<p>LEFT(celladdress, number of bytes to take)</p>
 		<p>MID(celladdress, byte number to start at, number of bytes to take)</p>
@@ -92,6 +95,13 @@
 		<p>=LEFT(A2, SEARCH(",", A2)-1)</p>
 		<p>grab rest of name:</p>
 		<p>=mid(b5, search(",",b5)+1, 100)</p>
+		<br>
+		<p>Exact</p>
+		<p>Date functions</p>
+		<p>Using column names instead of cell addresses</p>
+		<p>Rank</p>
+		<p>=RANK(B2,$B$2:$B$100,1)</p>
+		<p>Tableau Reshaper</p>
 		
 
 	
