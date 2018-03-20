@@ -31,7 +31,7 @@
 <p>A link to it will be on StribSource under "Databases". The direct link is <a href="http://panda.star.local/#search/all">http://panda.star.local/#search/all</a>. This is not accessible if you are outside the Strib network. There will be a generic login that anyone in the newsroom can use; if you don't have it talk to MaryJo Webster or Dan Barnes. If you plan on uploading your own datasets, please ask MaryJo or Dan to create a personalized login for you.</p>
 
 <h2>How to search:</h2>
-<p>There are instructions built into PANDA (see the link on the main page that says "How to make advanced searches.") The directions there include basic directions, too. But here are the highlights…</p>
+<p>There are instructions built into PANDA (see the link on the main page that says "How to make advanced searches.") The directions there include basic directions, too. But here are the highlights:</p>
 <p>At the very top of the page -- in the black bar -- you'll see the key links for getting around PANDA. The default page is the one called "Search." The "Find a dataset"  link is the best way to navigate down to a specific dataset. The "Upload" link is where you go for uploading your own data (more about that below)</p>
 
 <p>On the "Search" page:</p>
@@ -66,7 +66,7 @@ Either way, you'll get a list of datasets.</li>
 <p>If you have an Excel file and you want to convert it to CSV.  In Excel, go to the File menu and choose "Save As" and choose "CSV (comma-delimited) (*.csv)" from the "Save as Type" pull-down menu.  If your Excel file has more than one worksheet, be sure to be viewing the sheet you want to export when you run the Save As. It will only export that one sheet.</p>
 <p>Other things to keep in mind:</p>
 <ul>
-<li>PANDA doesn't seem to like strange characters. For example, it balked at "protégé"  but switching it to plain "e" letters worked.</li> 
+<li>PANDA doesn't seem to like strange characters. For example, it balked at "prot&eacute;g&eacute;"  but switching it to plain "e" letters worked.</li> 
 <li>Make sure all columns have a header/label</li>
 <li>Make sure your column headings are relatively basic and only contain letters, numbers or underscore (no symbols). I like to use camel-case for my field names such as "LastName", "PropertyType", "InspectDate", etc.</li>
 <li>Make sure there are no blank rows, or other extraneous information in your sheet. For example, sometimes agencies add a "total" at the bottom of a spreadsheet, or they put some notes or info at the very top of the sheet. Take those out before trying to import.</li>
@@ -80,7 +80,7 @@ Either way, you'll get a list of datasets.</li>
 <p>It will send you an email when the import is finished. If it's a big dataset or if somebody else is importing or exporting or indexing data, your job will be delayed until those other things are finished (first come, first serve basis)</p>
 <p>If you want to be able to search the dataset you just uploaded on specific fields, you need to "enable column search" when the import is finished. On the page for that dataset (if you're lost, go to "Find a dataset" and navigate to the dataset you want), you'll see a "Actions" button that has these options. Click on "Enable column search" and it will bring up a pop-up window with the fields that are in that dataset. You'll see in this screen grab that there are check marks next to several fields -- these fields have already been "enabled" for column search. Your new dataset will not have any check marks. Check the boxes for the fields you want to be able to search on, then be sure the data type is set properly (i.e. "number" for a year field, "date and time" for a date field, "text" for most everything else) Then click on "Make columns searchable." It will start "reindexing" the dataset. This will take longer than the import and PANDA will send you an email when it's done.  If some fields have already been enabled, but you want to add more, you follow this same process.</p>
 
-<p>Adding data to an existing dataset:</p>
+<h2>Adding data to an existing dataset:</h2>
 <p>Let's say that you just got a new batch of salary records for Dakota County and you want to add it to PANDA. If you look at the Dakota County file that is there right now, it covers 2010 to 2014 -- all in one dataset. So it seems logical that you might want to add the 2015 data to it.</p>
 <p>The big caveat here is that the structure of the new file needs to match the existing PANDA file EXACTLY! This means that the fields need to be in the same order and have the same column names/headers. Any variation and PANDA will reject it. </p>
 <p>One recommendation that can help you is to first export a chunk of data from the existing dataset so you can get the headers and then make sure your new data uses those same headers, in that same order.</p>
