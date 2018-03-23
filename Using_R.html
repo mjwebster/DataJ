@@ -35,6 +35,7 @@
 		<li><a href="https://www.edx.org/course/introduction-r-data-science-microsoft-dat204x-6">Microsoft edX- Introduction to R for Data Science</a> I found this free course useful for the very basics of R, especially in getting a handle on terminology and syntax.</li>
 		<li><a href="https://paldhous.github.io/wcsj/2017/">Peter Aldous' Data Analysis with R training materials</a>. This site really opened the door for me. It focuses on the SQL-like capabilities of the dplyr package and using ggplot2 for visualizations and uses real journalism examples.</li>
 		<li><a href="https://github.com/dhmontgomery/r-data-for-beginners/blob/master/r_for_beginners.md">David Montgomery's R for Beginners</a>. This was a good second tutorial to hit. Also focuses on the SQL-like capaibilities and visualizations with real journalism example, but goes a little deeper than Aldous' tutorial.</li>
+			<li><a href="https://github.com/dhmontgomery/r-data-for-beginners/blob/master/r_for_beginners.md">Ron Campbell's Intro to R hands-on class from NICAR18.</a> This one is a little more advanced and uses more Base R than the others.</li>
 		<li><a href="https://www.computerworld.com/article/2497143/business-intelligence/business-intelligence-beginner-s-guide-to-r-introduction.html">Beginner's guide to R, by Sharon Machlis</a>. This covers a lot of basic ground and provides a ton of useful links</li>
 		<li><a href="http://r4ds.had.co.nz/">E-book: R for Data Science by Garrett Grolemund and Hadley Wickham.</a></li>
 		<li><a href="https://www.jessesadler.com/post/excel-vs-r/">Excel vs R: A Brief Introduction to R</a></li>
@@ -89,13 +90,16 @@
 		<h2>Joining data frames</h2>
 		<p>Another common issue for us data journalists is having to join two datasets together on one or more common fields/columns. Just like SQL, you can do an inner_join (return only matching records) or left_join (return all records from the first table listed and only those that match from the second table) using the dplyr package. Here's the <a href="https://www.rdocumentation.org/packages/dplyr/versions/0.7.3/topics/join"> official documentation on joining.</a> In the code below you can replace the two instances of "fieldname" with the correct names of columns in your two tables that match. And replace "table1" and "table2" with the names of the two data frames you are joining. In my example, "newtable" is the name of the new data frame I'm creating from this join.</p>
 		<p>newtable <- inner_join(table1, table2, by=c("fieldname"="fieldname"))</p>
+		<h2>Useful shortcuts</h2>
+		<p>The assignment operator looks like this: <- That's right, a left-pointing arrow followed by a minus sign. The shortcut on a Mac is Option plus the minus sign (Option-). On the PC it's Alt plus the minus sign (Alt-).</p>
+		<p>Shortcut for the pipe separator: %>%  Use Command-Shift-M on the Mac or Control-Shift-M on the PC.</p>
+		<h2>Importing using tidyverse</h2>
+		<p>The <a href="http://readr.tidyverse.org/reference/read_delim.html">readr package</a> that comes with tidyverse seems to be the best way to import text files. It even includes an optional argument to have it trim leading and training spaces on all fields as it brings it in (trim_ws).</p>
+		<p>If you need to specific whether a column is an integer or a character (especially in a situation where you might have leading zeros on a unique ID field), you can specify that with the col_types argument. You could list them out one after another, like this: read_csv(“my_file”, col_types = “cccciiiiii“).  But if you have lots of columns of the same type -- let's say integer -- and only a few that need to be specified as something else, then you could do something like this: read_csv(“my_file”, col_types = cols(.default = “i”, a = “c”, b = “c”)) The .default parameter (with a preceding period) will set the default column type, then you can just specify the exceptions. Note also that this has to be incorporated in a cols() function. (h/t to David Montgomery for this trick)</p>
+		<h2>Setting up your R projects right the first time</h2>
+		<p>I went to a great hands-on R session at NICAR18, led by Andrew Tran. He put together <a href="https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html">this impressive set of resources</a> about setting up your R projects so they are reproducible, not only by you, but also by others should you choose to publish your work to github.</p>
 		
 
-
-	
-
-		
-		
 		
 		
 		
