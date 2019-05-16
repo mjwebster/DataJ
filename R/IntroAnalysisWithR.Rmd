@@ -1,0 +1,306 @@
+---
+title: "Intro to analysis with Tidyverse"
+author: "By MaryJo Webster"
+date:  "Last updated: `r Sys.Date()`"
+output:
+  html_document: 
+    toc: true
+    to_depth: 1
+    toc_float: true
+    theme: cerulean
+#This area is called the YAML header
+---
+
+```{r setup, include=FALSE}
+#this is a standard piece of code that comes with an RMarkdown page when you create it.
+#If you don't want your code to appear in the results, change echo to FALSE
+knitr::opts_chunk$set(echo = TRUE)
+```
+#About
+This is an RMarkdown page that is running an analysis of Minnesota death certificate data on people whose deaths involved opioids such as heroin, oxycodone, methadone, fentanyl, etc.<br><br>
+We are going to run through all the basic steps including loading packages, importing a .csv file of data, using the Tidyverse package called "dplyr" to run some analysis (similar to Pivot Tables in Excel) and then use a package called "ggplot2" to create a graphic of some of our findings. Finally we will "knit" this page in order to turn it into an HTML page where we can share our results with others.<br>
+<br>
+
+
+#How to run this code on your own<br>
+You can download the RMarkdown page (called IntroAnalysisWithR.Rmd) used to build this webpage AND the data for this analysis (called "opiate_deaths.csv") from this <a href="https://github.com/mjwebster/DataJ/tree/gh-pages/R">github repo</a><br><br>
+Save the RMarkdown file to a new directory on your computer. Create a sub-directory called "data" and put the opiate_deaths.csv file in that sub-directory. Open RStudio and go to the File menu and choose "New Project." It will ask you to pick a directory -- choose "Existing Directory" and navigate to the one where you stored in the RMarkdown page.<br><br>
+You'll name your project (whatever you want to name it) and it will create a file with a .RProj extension on it. That's the file you'll use to open your project in the future.<br><br>
+You should see that new file, plus your RMarkdown file and a "data" sub-folder in the Files tab on the right lower pane in RStudio. You can click on the data sub-folder to open that folder and confirm that your csv file is in there.<br><br>
+Open the RMarkdown page and you'll see all this text you were just reading.<br>
+
+#How to "run" a chunk of code<br>
+In an RMarkdown page you generally run each chunk of code separately. There are a number of ways to run a chunk. Put your cursor in the chunk you want to run. One option is to go to the "Run" button at the top of the page and choose one of the options from the pull-down list. There are also keyboard shortcuts for either launching a single line of code (In Windows: Control+Enter ) or an entire chunk (In Windows: Control+Shift+Enter). 
+
+#Load packages<br>
+The first time you use R (and if you install an updated version) you will need to "install" packages. But every time you use R for any reason, you then need to "load" any of the installed packages that you want to use in your code.<br><br>
+Below I've provided some syntax that could be used in all your projects. It checks to see if the needed packages are installed and will install any that are missing.<br><br>
+Below that there are a series of library() commands to essentially turn on those packages for use in this particular RMarkdown page. You will need that every time you use R. However, the particular libraries/packages you need might differ from one project to another.
+
+```{r, warning=FALSE, message=FALSE}
+
+#This little piece of code checks to see if you have these packages installed on your computer and it will install them if you don't.
+packages <- c("tidyverse", "janitor","ggthemes", "lubridate", "kntir", "htmltools", "rmarkdown", "kableExtra")
+if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
+  install.packages(setdiff(packages, rownames(installed.packages())), repos = "http://cran.us.r-project.org")  
+}
+
+library(readr) #importing csv files; part of Tidyverse
+library(dplyr) #general analysis; part of Tidyverse
+library(ggplot2) #making charts ; part of Tidyverse
+
+library(ggthemes) #this will help make our charts look better
+library(janitor) #for data cleanup
+library(lubridate) #for working with date fields
+
+#we'll need these new packages for creating this markdown page to an HTMl page
+library(rmarkdown)
+library(knitr)
+library(htmltools)
+library(kableExtra)
+
+
+```
+
+#Import data<br>
+The data file we are going to use is stored in a sub-directory to our working directory. The sub-directory is called "data." Our data file is called "opiate_deaths.csv" and it is a comma-separated values text file.<br>
+We are going to use the readr package (which is part of Tidyverse) to import this file. Readr has a function called "read_csv" that is designed to import csv files.<br>
+This code below is the most basic we would need to import this data file. However, if we were to use this, readr would guess incorrectly and set our date fields to character. We also have a field showing the age of the person who died that we want to ensure comes in as a numeric field. If we don't do this, we will have trouble sorting by dates or calculating an average age, for example.<br>
+```{r, eval=FALSE}
+deaths <- read_csv('./data/opiate_deaths.csv')
+```
+So we're going to one of the optional arguments that come with the read_csv function that allows us to set the column types.<br> 
+In the code below, it's setting the default to character ("c"), but then it's expressly telling R to set birthdate, deathdate and injury_date to a date format (col_date). Notice that col_date needs us to tell it how the date is displayed in our csv file. In this case, the dates show up as "5/5/2015". <a href="https://readr.tidyverse.org/reference/parse_datetime.html">This website</a> nicely explains the various options if your date fields are stored differently.<br>
+<br>
+At the bottom of our code we are using a pipe operator (%>%) to have it also do one more thing as part of the import. It's going to run a function called clean_names() from the janitor package. This is a handy little tool that will convert all those uppercase field names to lowercase, ditch extra spaces in column names and things like that. R is case sensitive and doesn't like spaces or weird symbols in its column names, so this function comes in handy quite often. I tack it on to the end of my imports every time. Notice, however, that when i referred to my column names earlier in the code, I put them the way they are in the csv file because clean_names() hasn't done it's work yet.
+
+```{r importdata, warning=FALSE, message=FALSE}
+
+deaths <- read_csv('./data/opiate_deaths.csv',
+                col_types=cols(.default="c",
+                BIRTHDATE=col_date("%m/%d/%Y"),
+                DEATHDATE=col_date("%m/%d/%Y"),
+                INJURY_DATE=col_date("%m/%d/%Y"),
+                AGEYEARS="i")) %>%
+  clean_names()
+```
+
+#Analysis with dplyr<br>
+The dplyr package is very similar to Structured Query Language (SQL) and it is one way to create the equivalent of Pivot Table where you summarize your data. See my <a href="http://mjwebster.github.io/DataJ/R/RCheatSheet.html">R Cheat Sheet</a> for more on the basic syntax.<br>
+Let's start with simply selecting a few of the columns to display in our output.<br>
+Every query you run will start with the name of your dataframe (in this case we called it "deaths") and then use a pipe operator (%>%) to "link" operations. In this example below, our second operation is to simply display a few of the columns from our data. To do this we use the "select" syntax from dplyr.
+
+```{r}
+deaths %>%  select(firstname, lastname, deathdate)
+```
+
+##Select and filter<br>
+Now we'll add one more line of code, using the filter command to limit the number of rows that are returned in our output. In this case, we are asking for all the women who are identified as African American.
+```{r}
+deaths %>% 
+   filter(gender=='F' , race=='African American') %>% 
+   select(firstname, lastname, gender, deathdate)
+```
+##Other ways to filter<br>
+Who died in January 2015? This tells it to filter for deaths after or equal to 1/1/2015 and before 2/1/2015. Note the format of the dates (yyy-mm-dd) because that's how it's stored in the data frame.
+```{r}
+deaths %>%
+  filter(deathdate>='2015-01-01', deathdate<'2015-02-01') %>% 
+  select(lastname, firstname, gender, deathdate)
+```
+
+This tells it to show people who were Chinese or Japanese. Note the pipe character (|) is used to indicate "or". In the previous examples the comma was used to indicate "and".
+```{r}
+deaths %>%
+  filter(race=='Chinese' | race=='Japanese') %>% 
+  select(firstname, lastname, ageyears, race)
+```
+There are a lot of other things to learn about filtering data, but we'll save that for later.<br>
+<br>
+
+#Indenting<br>
+You probably noticed that in the last couple batches of code, each piece is on its own line. I've indented them on purpose to make it easier to read. The key is that the pipe (%>%) needs to be at the end of a line (never at the beginning). Once you hit enter after the pipe, RStudio will automatically know you want to indent.
+```{r, eval=FALSE}
+deaths %>%
+  filter(race=='Chinese' | race=='Japanese') %>% 
+  select(firstname, lastname, ageyears, race)
+```
+
+#Summarizing our data<br>
+Up until now, we've been picking out pieces from our dataframe -- a few rows, a few columns. But usually we want to be able to summarize our data to find totals, percentages, averages and things like that.<br>
+The summarize (or "summarise" will also work) function in dplyr allows us to generate counts, sum up values in a column, calculate averages, etc.<br>
+The example below is simply counting the number of records in our data frame. Note the "n()" syntax -- this is how you tell R to count records, and that I'm creating a column that I'm calling "numrecords." The column will only appear in this temporary output. It will not be stored in a table.  I've added some extra spaces to make the code easier to read.
+```{r}
+deaths %>% summarize(numrecords = n() )
+```
+
+##Pivot Table<br>
+Most often, though, we want to summarize by "groups" within our data; this is what we usually use Pivot Tables for in Excel. For example, how many people of each gender died from opioid-related deaths?<br>
+Note that now I've added another piece -- group_by() -- and am telling it to form the groups based on the values in the "gender" column in our data.
+```{r}
+deaths %>%
+  group_by(gender) %>% 
+  summarise(numdeaths = n())
+```
+The query above was simply counting the number of records where the gender field listed "M" (male) and how many listed "F" (female). But we can use summarize to do all kinds of calculations.<br>
+For example, what was the average age by gender?<br>
+We'll use the mean() function to calculate an average on our "ageyears" column. Note I'm making a new column called "avg_age."
+```{r}
+deaths %>% 
+  group_by(gender) %>% 
+  summarize(avg_age = mean(ageyears))
+```
+We can also use summarize() to sum the values in a column. Unfortunately, this data only has one numeric field (ageyears) and it doesn't make sense to sum those values. <br>
+But imagine you had a data frame listing each expenditure you made in your household last year and you want to get a total for each month. It would look something like this, assuming your data has a column indicating the month each expense occurred and a column called "amount_spent" identifying how much the item cost:
+```{r, eval=FALSE}
+myhousehold_expenses %>% 
+  group_by(month) %>% 
+  summarize(monthly_total = sum(amount_spent))
+```
+
+Let's return to our death data.<br>
+<br>
+
+##Group by two variables
+Sometimes we want to count or sum things based on 2 values. For example, we want to find out how many of the people who died were both women and African American.
+```{r}
+deaths %>% 
+  group_by(gender, race) %>% 
+  summarise(numdeaths = n())
+```
+
+#Sort our results<br>
+Let's add one more piece from dplyr -- arrange() -- so we can see our results in a prescribed order. For example, that last query we ran was very long. It might be nice to see the biggest group at the top. The default behavior for arrange() is ascending order, so in order to get the biggest on top (descending order), we need to add "desc" as part of the code.
+```{r}
+deaths %>% 
+  group_by(gender, race) %>% 
+  summarise(numdeaths = n()) %>% 
+  arrange(desc(numdeaths))
+```
+
+#Filter summarized results<br>
+There are times you want to limit the results in your output in some way or another. You can do that by adding a filter command at the end of your query. In this example, we're telling it to only give us results for groups where there were more than 100 deaths.
+
+```{r}
+deaths %>% 
+  group_by(gender, race) %>% 
+  summarise(numdeaths = n()) %>% 
+  arrange(desc(numdeaths)) %>% 
+  filter(numdeaths>100)
+```
+
+#Mutate<br>
+This is one of my favorite features of dplyr. Mutate() allows you to add a new column, either to a temporary output or add it to a data frame. We'll start by adding a new column to our output. Remember the query about how many were men and how many were women? Wouldn't it be great to show percentages?<br>
+Notice that mutate() comes after summarize(). This is important because mutate is going to take the column we created in summarize() -- numdeaths -- and generate a percentage from it. Because we're grouping by gender, this is taking the numdeaths for the gender and dividing it by the total of the numdeaths column. And we're creating a new column called "pct".
+
+
+```{r}
+
+deaths %>% 
+  group_by(gender) %>% 
+  summarize(numdeaths = n()) %>% 
+  mutate(pct = numdeaths/sum(numdeaths)) %>% 
+  arrange(desc(pct))
+
+```
+
+#Put it all together<br>
+Let's put a bunch of things together in one query. We'll filter to only the women, then group them by race to find out how many women of each race died, what the average age was in each group and the percentage of the total women that each group accounts for.<br>
+We'll add a couple more things to fancy this up. First, you'll see that we're using the round function (from Base R)  to round our percentage to one decimal point. We're also multiplying it by 100 to make it a whole number. Note: the location of the parentheses on that calculation is really important and easy to get wrong.<br>
+
+```{r}
+deaths %>% 
+  filter(gender=='F') %>% 
+  group_by(race) %>% 
+  summarise(numdeaths = n(), avgage = round(mean(ageyears),1)) %>% 
+  mutate(pct = round((numdeaths/sum(numdeaths)*100),1)) %>% 
+  arrange(desc(pct))
+```
+
+
+#Add a new column<br>
+One of the questions we might have for this data is a simple one: How many people died each year? Our data, however, has the date of death, but not a separate field identifying the year. So let's create one. We'll use a package called lubridate that has a year() function, which will strip the year out of the date. Note: The date field needs to be stored as a true date field (not character). Remember how we fixed that on the import? This is why.
+
+```{r}
+#this is going to overwrite our existing data frame, pull everything from that existing data frame and then use mutate() -- from dplyr -- to add a new column called "deathyr"
+
+deaths <-  deaths %>% mutate(deathyr = year(deathdate) )
+```
+
+Let's look at what that shows us:
+```{r}
+deaths %>%
+  group_by(deathyr) %>%
+  summarize(numdeaths = n())
+  
+```
+
+
+#Cleaning dirty data<br>
+Let's start by looking at the hispanicethnicity field
+```{r}
+# let's look at this field to see where we've got a problem
+deaths %>% group_by(hispanicethnicity) %>% summarise(count=n())
+```
+Notice the wide variety of ways that Hispanic and Non-Hispanic are listed? In order to get a good count, we need to make them consistent. This is called standardizing data.
+
+
+##How to recode<br>
+We are going to create a new column -- called hispanic_new -- and use a function called case_when() to fix the problematic values.
+```{r}
+#case_when is from dplyr: https://dplyr.tidyverse.org/reference/case_when.html
+
+deaths <-  deaths %>%
+  mutate(hispanic_new = 
+           case_when(hispanicethnicity=='Non-Hispanic' | 
+hispanicethnicity=='NOT HISPANIC' | hispanicethnicity=='NOT-HISPANIC' | 
+  hispanicethnicity=='non-hispanic' | hispanicethnicity=='NON-HISPANIC'~'NOT HISPANIC',
+TRUE~toupper(hispanicethnicity)))
+
+# the base R function called "toupper()" converts values to uppercase
+
+
+#let's see our new column
+
+deaths %>% 
+  group_by(hispanic_new) %>% 
+  summarise(numdeaths = n())
+
+```
+
+
+#Export data<br>
+If you want to export some or all of your data, you can use write.csv<br>
+It will spit out a file to your working directory
+```{r}
+#Let's spit out a subset of data -- in this case, the number of deaths by year
+
+deaths_by_year <-  deaths %>%
+  group_by(deathyr) %>%
+  summarize(numdeaths = n())
+
+#this will send a csv to your working directory
+#if you don't include row.names it will add a column, numbering each row 1 through x.
+write.csv(deaths_by_year, 'deaths_by_year.csv', row.names=FALSE)
+
+
+
+#Another way to export a sub-set of your data is to include a filter in your write.csv code.
+#In this example, I'm going to export all the columns from the main table, but only for the women who died
+write.csv(deaths %>% filter(gender=='F'), 'women_deaths.csv', row.names=FALSE)
+
+
+#You can send the file to a sub-directory like this (this assumes you have a sub-directory called "output")
+#write.csv(deaths %>% filter(gender=='F', './output/women_deaths.csv', row.names=FALSE))
+
+
+```
+
+#Knit to HTML<br>
+<a href="https://rmarkdown.rstudio.com/articles_intro.html">About knitr</a><br>
+Push the Knit button at the top of the page and it will automatically create an HTML file, as long as there are no errors in your code.<br>
+The code at the top of the page that says "echo=TRUE" means that the HTML page will include your code chunks and the results. Try running this page one time with echo=TRUE, open the HTML page (in your working directory) and see what it looks like. Then chase echo=FALSE and knit the page again and see how it has changed.<br>
+Also notice that the results of our queries don't look very pretty. It is possible to make prettier tables using <a href="https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html">kable() and kableExtra()</a>, which come with the kntir package. 
+
+
+
