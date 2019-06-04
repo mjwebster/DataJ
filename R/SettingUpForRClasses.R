@@ -10,7 +10,7 @@
 #it will take a few minutes
 #watch the Console area below for the caret (>) to return, indicating it's done
 
-packages <- c("tidyverse", "stringr", "janitor", "rmarkdown", "lubridate", "ggthemes", "knitr", "htmltools", "rprojroot")
+packages <- c("tidyverse", "stringr", "janitor", "rmarkdown", "lubridate", "ggthemes", "knitr", "htmltools", "rprojroot", "kableExtra")
 if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
   install.packages(setdiff(packages, rownames(installed.packages())), repos = "http://cran.us.r-project.org")  
 }
