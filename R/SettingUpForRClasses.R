@@ -23,7 +23,7 @@
 
 packages <- c("tidyverse", "stringr", "janitor", "rmarkdown", "lubridate", 
               "ggthemes", "knitr", "htmltools", "rprojroot", "kableExtra",
-              "sf", "mapview", "leaflet", "tidycensus", "devtools")
+              "sf", "mapview", "leaflet", "tidycensus", "devtools", "readxl", "scales", "formattable", "DT")
 if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
   install.packages(setdiff(packages, rownames(installed.packages())), repos = "http://cran.us.r-project.org")  
 }
