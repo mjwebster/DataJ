@@ -68,27 +68,27 @@ setup_folders()
 #scheduled for Oct 16th and Oct 17th
 
 # download zip file for Getting Started With R 
-download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/GettingStartedWithR_Boston.zip", destfile="./R_GettingStarted/GettingStartedWithR_Boston.zip", method='auto')
+download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/GettingStartedWithR_Boston.zip", destfile="./R_GettingStarted/GettingStartedWithR_Boston.zip", method='auto')
 unzip('./R_GettingStarted/GettingStartedWithR_Boston.zip', exdir='./R_GettingStarted')
 
 #Download zip file for Tidyverse Part 1 in R
-download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/R_TidyversePart1.zip", destfile="./R_TidyversePart1/R_TidyversePart1.zip", method='auto')
+download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/R_TidyversePart1.zip", destfile="./R_TidyversePart1/R_TidyversePart1.zip", method='auto')
 unzip('./R_TidyversePart1/R_TidyversePart1.zip', exdir='./R_TidyversePart1')
 
 
 #Download zip file for Data Cleaning with R
-download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/PowerofDataCleaning_Boston.zip", destfile="./R_CleaningData/PowerofDataCleaning_Boston.zip", method='auto')
+download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/PowerofDataCleaning_Boston.zip", destfile="./R_CleaningData/PowerofDataCleaning_Boston.zip", method='auto')
 unzip('./R_CleaningData/PowerofDataCleaning_Boston.zip', exdir='./R_CleaningData')
 
 #Download zip file for Tidyverse Part 2 in R
-download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/R_TidyversePart2.zip", destfile="./R_TidyversePart2/R_TidyversePart2.zip", method='auto')
+download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/R_TidyversePart2.zip", destfile="./R_TidyversePart2/R_TidyversePart2.zip", method='auto')
 unzip('./R_TidyversePart2/R_TidyversePart2.zip', exdir='./R_TidyversePart2')
 
 #Download zip file for Using TidyCensus in R
-download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/R_UsingTidyCensus.zip", destfile="./R_UsingTidyCensus/R_UsingTidyCensus.zip", method='auto')
+download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/R_UsingTidyCensus.zip", destfile="./R_UsingTidyCensus/R_UsingTidyCensus.zip", method='auto')
 unzip('./R_UsingTidyCensus/R_UsingTidyCensus.zip', exdir='./R_UsingTidyCensus')
 
 #Download zip file for RMarkdown
-download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/R_Markdown.zip", destfile="./R_Markdown/R_Markdown.zip", method='auto')
+download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/R_Markdown.zip", destfile="./R_Markdown/R_Markdown.zip", method='auto')
 unzip('./R_Markdown/R_Markdown.zip', exdir='./R_Markdown')
 
