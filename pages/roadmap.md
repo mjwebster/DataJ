@@ -114,6 +114,8 @@ For example, let’s say your question is: Are elementary schools more racially 
 
 Another example: How many schools in my state are “majority minority”? Note that here we are just asking for a single number. We aren’t calculating new totals or averages or rates for groups. So, this might be as simple as a filtering your data to only those schools that have more than 50% students of color. Keep in mind that some questions don’t need the fancy tools.
 
+Try doing some simple visualizations, even just bar charts or line charts, to get a better understanding of your data. Sometimes this will illuminate a problem in your data (such as missing records) or show you a pattern you couldn't see in rows and columns.
+
 
 ## Best practices:
 * Follow “tidy” data practices. Neat rectangle of data, with one row of headers across the top. No empty rows, no empty columns in the middle of your data. Each row is one observation. Each column contains one piece of information about that observation. Don’t bunch multiple pieces of information in a single column (for example, you probably want a last name and a first name in their own columns) or put extraneous information in the same column as a value (for example putting this in a date field: “approximately 1/1/2008”). 
