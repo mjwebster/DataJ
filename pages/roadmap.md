@@ -82,7 +82,7 @@ Does your data need to be re-arranged? Sometimes if you’re struggling to figur
 *	Another common issue is that your data might be in a “wide” format and you need it in a “long” format, or vice versa. 
 
 Wide data has more than one value in each row, like this:
-<img src="assets/wide_data.png" alt="hi" class="inline"/>
+<img src="wide_data.png" alt="hi" class="inline"/>
 
 
 
@@ -90,7 +90,7 @@ Wide data has more than one value in each row, like this:
 
 Here’s that same data converted to long format. Notice that you’re seeing all the values from the 1st row of the wide data, now displayed as separate rows.
 
-<img src="assets/long_data.png" alt="hi" class="inline"/>
+<img src="long_data.png" alt="hi" class="inline"/>
 
 
 
