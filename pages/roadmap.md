@@ -1,21 +1,25 @@
 # Data Analysis Roadmap and Best Practices
 @MaryJoWebster
+
 Created February 2020
 
 ## Roadmap:
-1)	Save a backup copy of your data and any documentation that came with it.
+####1)	Backup your data
+Save a backup copy of your data and any documentation that came with it.
 
-2)	Start a data journal. If you made a public records request, copy and paste into your journal a copy of your request and any correspondence with the agency that followed. Write down a thorough description of the data that should include, but not be limited to:
+####2)	Start a data journal
+If you made a public records request, copy and paste into your journal a copy of your request and any correspondence with the agency that followed. Write down a thorough description of the data that should include, but not be limited to:
 
 * Agency where you got the data including name and contact information of the people you dealt with, if applicable
-*	how you obtained it (public records request; online data portal, etc). If it came from an online source, include a link to the site.
-•	official name of the dataset, if applicable
-•	the universe of the data it includes. This might include geography such as whether it covers an entire state or just a single city. This might include what kinds of incidents. Be sure to note if there’s something that’s not here that you might expect to find. (inspections of all schools in your state? All fatal car accidents, but not injury accidents in the whole U.S.?)
-•	the time frame the data represents (all incidents from 2018? A snapshot as of Dec. 31, 2018?  All inspections from the past 10 years?). If you got the data from an online data portal, be sure to note the date it was last updated on the site.
-•	Anything else that is important to note. Are there limitations on how you can use this data? Did the agency warn you about the consistency or validity of anything in the data? Were there any changes in how this data is collected or reported during the time period your data represents?
-•	If you have a record layout and/or codebook, make a note about where those items are stored on your computer.
+*	How you obtained it (public records request; online data portal, etc). If it came from an online source, include a link to the site.
+*	Official name of the dataset, or any terminology the agency uses in referring to it.
+*	Universe of the data it includes. This might include geography such as whether it covers an entire state or just a single city. This might include what kinds of incidents. Be sure to note if there’s something that’s not here that you might expect to find. (inspections of all schools in your state? All fatal car accidents, but not injury accidents in the whole U.S.?)
+*	Time frame the data represents (all incidents from 2018? A snapshot as of Dec. 31, 2018?  All inspections from the past 10 years?). If you got the data from an online data portal, be sure to note the date it was last updated on the site.
+*	Anything else that is important to note. Are there limitations on how you can use this data? Did the agency warn you about the consistency or validity of anything in the data? Were there any changes in how this data is collected or reported during the time period your data represents?
+*	If you have a record layout and/or codebook, make a note about where those items are stored on your computer.
 
-3)	If you haven’t done this already, talk to someone at the agency to ask some questions and then write the answers in your journal. Your goal is to understand how the system works.
+####3)	Ask questions
+If you haven’t done this already, talk to someone at the agency to ask some questions and then write the answers in your journal. Your goal is to understand how the system works.
 *	How is this data collected? (via a paper form? An electronic submission?) When is it collected? How often is it updated? 
 *	Does anybody review it for accuracy?
 *	How is it used by the agency? Are there any reports generated on a regular basis? (if so, get a copy of one)
