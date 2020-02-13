@@ -1,5 +1,6 @@
 # Data Analysis Roadmap and Best Practices
-@MaryJoWebster
+@mjwebster
+<a href="https://twitter.com/MaryJoWebster">Follow me</a>
 
 Created February 2020
 
