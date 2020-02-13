@@ -1,6 +1,9 @@
 # Data Analysis Roadmap and Best Practices
-@mjwebster
-<a href="https://twitter.com/MaryJoWebster">Follow me</a>
+<a href="https://github.com/mjwebster">github</a>
+
+<a href="https://twitter.com/MaryJoWebster">Twitter</a>
+
+<a href="http://mjwebster.github.io/DataJ/">More training materials</a>
 
 Created February 2020
 
@@ -45,7 +48,7 @@ Find people who are familiar with this data or at least the topic, such as acade
 
 * Use filters or Pivot Tables to look at all the values in each column – anything strange?
 * Are there any numeric values or dates that are out of bounds? (i.e. a date that is in the future or one that is far earlier than you’d expect to find.) 
-* Are there inconsistencies in values? (I.e. Minneapolis spelled as “Mpls” and “Minneapolis” and “Mineapolis”). Keep in mind that periods (or lack of) can make inconsistencies such as “St. Paul” and “St Paul”. Remember that the only columns/fields you’ll need to clean will be ones that you plan to use in your analysis
+* Are there inconsistencies in values? (i.e. Minneapolis spelled as “Mpls” and “Minneapolis” and “Mineapolis”). Keep in mind that periods (or lack of) can make inconsistencies such as “St. Paul” and “St Paul”. Remember that the only columns/fields you’ll need to clean will be ones that you plan to use in your analysis
 * As part of this, also get a sense of whether there are any columns you can’t use because of too many missing values. Less than 10% empty is generally safe to proceed.
 
 ### Prep for the interview
