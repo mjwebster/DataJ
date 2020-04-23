@@ -2,4 +2,4 @@
 
 
 
-<a href="pages/intro">An introduction to data journalism</a>
+<a href="pages/intro.md">An introduction to data journalism</a>
