@@ -73,7 +73,7 @@ unzip('./R_GettingStarted/GettingStartedWithR_Boston.zip', exdir='./R_GettingSta
 
 #Download zip file for Tidyverse Part 1 in R
 download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/R_RidyversePart1.zip", destfile="./R_TidyversePart1/R_TidyversePart1.zip", method='auto')
-unzip('./R_TidyversePart1/R_RidyversePart1.zip', exdir='./R_TidyversePart1')
+unzip('./R_TidyversePart1/R_TidyversePart1.zip', exdir='./R_TidyversePart1')
 
 
 #Download zip file for Data Cleaning with R
@@ -86,7 +86,7 @@ unzip('./R_TidyversePart2/R_TidyversePart2.zip', exdir='./R_TidyversePart2')
 
 #Download zip file for Using TidyCensus in R
 download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/UsingTidyCensus.zip", destfile="./R_UsingTidyCensus/R_UsingTidyCensus.zip", method='auto')
-unzip('./R_UsingTidyCensus/UsingTidyCensus.zip', exdir='./R_UsingTidyCensus')
+unzip('./R_UsingTidyCensus/R_UsingTidyCensus.zip', exdir='./R_UsingTidyCensus')
 
 #Download zip file for RMarkdown
 download.file("https://github.com/mjwebster/DataJ/raw/gh-pages/R/Boston_files/R_Markdown.zip", destfile="./R_Markdown/R_Markdown.zip", method='auto')
