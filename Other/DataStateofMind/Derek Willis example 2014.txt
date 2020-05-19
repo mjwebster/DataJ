@@ -1,9 +1,0 @@
-Data state of mind example -- Derek Willis -- Oct 2014 Facebook post
-
-At work I maintain a database of congressional press releases, and this morning I ran the numbers on Ebola-related ones:
-Congressional press releases with Ebola in title, by month this year:
-Jan.-June: 0
-July - 2
-Aug. - 8
-Sept. - 56
-Oct. - 275
